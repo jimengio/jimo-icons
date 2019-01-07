@@ -1,0 +1,191 @@
+@font-face {
+	font-family: "Jimo";
+	src: url("Jimo.eot?24f532dd6d9437d29e4c8c5269544afd?#iefix") format("embedded-opentype"),
+url("Jimo.woff2?24f532dd6d9437d29e4c8c5269544afd") format("woff2"),
+url("Jimo.woff?24f532dd6d9437d29e4c8c5269544afd") format("woff"),
+url("Jimo.ttf?24f532dd6d9437d29e4c8c5269544afd") format("truetype"),
+url("Jimo.svg?24f532dd6d9437d29e4c8c5269544afd#Jimo") format("svg");
+}
+
+.jimo {
+	line-height: 1;
+}
+
+.jimo:before {
+	font-family: Jimo !important;
+	font-style: normal;
+	font-weight: normal !important;
+	vertical-align: top;
+}
+
+.jimo-application:before {
+	content: "\f101";
+}
+.jimo-apps-overview:before {
+	content: "\f102";
+}
+.jimo-bell-o:before {
+	content: "\f103";
+}
+.jimo-button:before {
+	content: "\f104";
+}
+.jimo-calendar:before {
+	content: "\f105";
+}
+.jimo-check-circle-o:before {
+	content: "\f106";
+}
+.jimo-check-circle-outline:before {
+	content: "\f107";
+}
+.jimo-check-circle:before {
+	content: "\f108";
+}
+.jimo-checkbox:before {
+	content: "\f109";
+}
+.jimo-clock:before {
+	content: "\f10a";
+}
+.jimo-configuration-center:before {
+	content: "\f10b";
+}
+.jimo-container:before {
+	content: "\f10c";
+}
+.jimo-data-analysis:before {
+	content: "\f10d";
+}
+.jimo-defect-analysis:before {
+	content: "\f10e";
+}
+.jimo-device-management:before {
+	content: "\f10f";
+}
+.jimo-device:before {
+	content: "\f110";
+}
+.jimo-envelop-open:before {
+	content: "\f111";
+}
+.jimo-envelop:before {
+	content: "\f112";
+}
+.jimo-flow-control-analysis:before {
+	content: "\f113";
+}
+.jimo-fork:before {
+	content: "\f114";
+}
+.jimo-gauge:before {
+	content: "\f115";
+}
+.jimo-incoming-inspection:before {
+	content: "\f116";
+}
+.jimo-input:before {
+	content: "\f117";
+}
+.jimo-intelligent-report:before {
+	content: "\f118";
+}
+.jimo-inventory-management:before {
+	content: "\f119";
+}
+.jimo-inventory:before {
+	content: "\f11a";
+}
+.jimo-measurement-data-analysis:before {
+	content: "\f11b";
+}
+.jimo-mechanical-analysis:before {
+	content: "\f11c";
+}
+.jimo-metrological-instrument-management:before {
+	content: "\f11d";
+}
+.jimo-number-input:before {
+	content: "\f11e";
+}
+.jimo-plus:before {
+	content: "\f11f";
+}
+.jimo-ppap:before {
+	content: "\f120";
+}
+.jimo-problem-analysis:before {
+	content: "\f121";
+}
+.jimo-process-events:before {
+	content: "\f122";
+}
+.jimo-product-information-management:before {
+	content: "\f123";
+}
+.jimo-product-traceability:before {
+	content: "\f124";
+}
+.jimo-product:before {
+	content: "\f125";
+}
+.jimo-production-management:before {
+	content: "\f126";
+}
+.jimo-production-process:before {
+	content: "\f127";
+}
+.jimo-purchasing-management:before {
+	content: "\f128";
+}
+.jimo-quality-problem-tracking:before {
+	content: "\f129";
+}
+.jimo-question-circle:before {
+	content: "\f12a";
+}
+.jimo-radio:before {
+	content: "\f12b";
+}
+.jimo-retry:before {
+	content: "\f12c";
+}
+.jimo-select:before {
+	content: "\f12d";
+}
+.jimo-shipments-detection:before {
+	content: "\f12e";
+}
+.jimo-smles-management:before {
+	content: "\f12f";
+}
+.jimo-switch:before {
+	content: "\f130";
+}
+.jimo-text-area:before {
+	content: "\f131";
+}
+.jimo-tick:before {
+	content: "\f132";
+}
+.jimo-tooling-management:before {
+	content: "\f133";
+}
+.jimo-upload:before {
+	content: "\f134";
+}
+.jimo-uploadbox:before {
+	content: "\f135";
+}
+.jimo-users:before {
+	content: "\f136";
+}
+.jimo-warn-circle-outline:before {
+	content: "\f137";
+}
+.jimo-wechat-circle:before {
+	content: "\f138";
+}
+.jimo-wechat:before {
+	content: "\f139";
+}

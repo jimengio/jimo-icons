@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Jimo</title>
+	<style>
+		body {
+			font-family: sans-serif;
+			margin: 0;
+			padding: 10px 20px;
+		}
+
+		.preview {
+			line-height: 2em;
+		}
+
+		.preview__icon {
+			display: inline-block;
+			width: 32px;
+			text-align: center;
+		}
+
+		.icon {
+			display: inline-block;
+			font-size: 16px;
+		}
+
+		@font-face {
+	font-family: "Jimo";
+	src: url("Jimo.eot?3960a6b974cc7cd2215a36a20ea5780e?#iefix") format("embedded-opentype"),
+url("Jimo.woff2?3960a6b974cc7cd2215a36a20ea5780e") format("woff2"),
+url("Jimo.woff?3960a6b974cc7cd2215a36a20ea5780e") format("woff"),
+url("Jimo.ttf?3960a6b974cc7cd2215a36a20ea5780e") format("truetype"),
+url("Jimo.svg?3960a6b974cc7cd2215a36a20ea5780e#Jimo") format("svg");
+}
+
+.jimo {
+	line-height: 1;
+}
+
+.jimo:before {
+	font-family: Jimo !important;
+	font-style: normal;
+	font-weight: normal !important;
+	vertical-align: top;
+}
+
+.jimo-application:before {
+	content: "\f101";
+}
+.jimo-apps-overview:before {
+	content: "\f102";
+}
+.jimo-bell-o:before {
+	content: "\f103";
+}
+.jimo-button:before {
+	content: "\f104";
+}
+.jimo-calendar:before {
+	content: "\f105";
+}
+.jimo-check-circle-o:before {
+	content: "\f106";
+}
+.jimo-check-circle-outline:before {
+	content: "\f107";
+}
+.jimo-check-circle:before {
+	content: "\f108";
+}
+.jimo-checkbox:before {
+	content: "\f109";
+}
+.jimo-clock:before {
+	content: "\f10a";
+}
+.jimo-configuration-center:before {
+	content: "\f10b";
+}
+.jimo-container:before {
+	content: "\f10c";
+}
+.jimo-data-analysis:before {
+	content: "\f10d";
+}
+.jimo-defect-analysis:before {
+	content: "\f10e";
+}
+.jimo-device-management:before {
+	content: "\f10f";
+}
+.jimo-device:before {
+	content: "\f110";
+}
+.jimo-envelop-open:before {
+	content: "\f111";
+}
+.jimo-envelop:before {
+	content: "\f112";
+}
+.jimo-flow-control-analysis:before {
+	content: "\f113";
+}
+.jimo-fork:before {
+	content: "\f114";
+}
+.jimo-gauge:before {
+	content: "\f115";
+}
+.jimo-incoming-inspection:before {
+	content: "\f116";
+}
+.jimo-input:before {
+	content: "\f117";
+}
+.jimo-intelligent-report:before {
+	content: "\f118";
+}
+.jimo-inventory-management:before {
+	content: "\f119";
+}
+.jimo-inventory:before {
+	content: "\f11a";
+}
+.jimo-measurement-data-analysis:before {
+	content: "\f11b";
+}
+.jimo-mechanical-analysis:before {
+	content: "\f11c";
+}
+.jimo-metrological-instrument-management:before {
+	content: "\f11d";
+}
+.jimo-number-input:before {
+	content: "\f11e";
+}
+.jimo-plus:before {
+	content: "\f11f";
+}
+.jimo-ppap:before {
+	content: "\f120";
+}
+.jimo-problem-analysis:before {
+	content: "\f121";
+}
+.jimo-process-events:before {
+	content: "\f122";
+}
+.jimo-product-information-management:before {
+	content: "\f123";
+}
+.jimo-product-traceability:before {
+	content: "\f124";
+}
+.jimo-product:before {
+	content: "\f125";
+}
+.jimo-production-management:before {
+	content: "\f126";
+}
+.jimo-production-process:before {
+	content: "\f127";
+}
+.jimo-purchasing-management:before {
+	content: "\f128";
+}
+.jimo-quality-problem-tracking:before {
+	content: "\f129";
+}
+.jimo-question-circle:before {
+	content: "\f12a";
+}
+.jimo-radio:before {
+	content: "\f12b";
+}
+.jimo-retry:before {
+	content: "\f12c";
+}
+.jimo-select:before {
+	content: "\f12d";
+}
+.jimo-shipments-detection:before {
+	content: "\f12e";
+}
+.jimo-smles-management:before {
+	content: "\f12f";
+}
+.jimo-switch:before {
+	content: "\f130";
+}
+.jimo-text-area:before {
+	content: "\f131";
+}
+.jimo-tick:before {
+	content: "\f132";
+}
+.jimo-tooling-management:before {
+	content: "\f133";
+}
+.jimo-upload:before {
+	content: "\f134";
+}
+.jimo-uploadbox:before {
+	content: "\f135";
+}
+.jimo-users:before {
+	content: "\f136";
+}
+.jimo-warn-circle-outline:before {
+	content: "\f137";
+}
+.jimo-wechat-circle:before {
+	content: "\f138";
+}
+.jimo-wechat:before {
+	content: "\f139";
+}
+
+	</style>
+</head>
+<body>
+	<h1>Jimo</h1>
+	<div class="preview">
+		<span class="preview__icon">
+			<span class="jimo jimo-application"></span>
+		</span>
+		<span>application</span>
+	</div>
+	<div class="preview">
+		<span class="preview__icon">
+			<span class="jimo jimo-apps-overview"></span>
+		</span>
+		<span>apps-overview</span>
+	</div>
+	<div class="preview">
+		<span class="preview__icon">
+			<span class="jimo jimo-bell-o"></span>
+		</span>
+		<span>bell-o</span>
+	</div>
+	<div class="preview">
+		<span class="preview__icon">
+			<span class="jimo jimo-button"></span>
+		</span>
+		<span>button</span>
+	</div>
+	<div class="preview">
+		<span class="preview__icon">
+			<span class="jimo jimo-calendar"></span>
+		</span>
+		<span>calendar</span>
+	</div>
+	<div class="preview">
+		<span class="preview__icon">
+			<span class="jimo jimo-check-circle-o"></span>
+		</span>
+		<span>check-circle-o</span>
+	</div>
+	<div class="preview">
+		<span class="preview__icon">
+			<span class="jimo jimo-check-circle-outline"></span>
+		</span>
+		<span>check-circle-outline</span>
+	</div>
+	<div class="preview">
+		<span class="preview__icon">
+			<span class="jimo jimo-check-circle"></span>
+		</span>
+		<span>check-circle</span>
+	</div>
+	<div class="preview">
+		<span class="preview__icon">
+			<span class="jimo jimo-checkbox"></span>
+		</span>
+		<span>checkbox</span>
+	</div>
+	<div class="preview">
+		<span class="preview__icon">
+			<span class="jimo jimo-clock"></span>
+		</span>
+		<span>clock</span>
+	</div>
+	<div class="preview">
+		<span class="preview__icon">
+			<span class="jimo jimo-configuration-center"></span>
+		</span>
+		<span>configuration-center</span>
+	</div>
+	<div class="preview">
+		<span class="preview__icon">
+			<span class="jimo jimo-container"></span>
+		</span>
+		<span>container</span>
+	</div>
+	<div class="preview">
+		<span class="preview__icon">
+			<span class="jimo jimo-data-analysis"></span>
+		</span>
+		<span>data-analysis</span>
+	</div>
+	<div class="preview">
+		<span class="preview__icon">
+			<span class="jimo jimo-defect-analysis"></span>
+		</span>
+		<span>defect-analysis</span>
+	</div>
+	<div class="preview">
+		<span class="preview__icon">
+			<span class="jimo jimo-device-management"></span>
+		</span>
+		<span>device-management</span>
+	</div>
+	<div class="preview">
+		<span class="preview__icon">
+			<span class="jimo jimo-device"></span>
+		</span>
+		<span>device</span>
+	</div>
+	<div class="preview">
+		<span class="preview__icon">
+			<span class="jimo jimo-envelop-open"></span>
+		</span>
+		<span>envelop-open</span>
+	</div>
+	<div class="preview">
+		<span class="preview__icon">
+			<span class="jimo jimo-envelop"></span>
+		</span>
+		<span>envelop</span>
+	</div>
+	<div class="preview">
+		<span class="preview__icon">
+			<span class="jimo jimo-flow-control-analysis"></span>
+		</span>
+		<span>flow-control-analysis</span>
+	</div>
+	<div class="preview">
+		<span class="preview__icon">
+			<span class="jimo jimo-fork"></span>
+		</span>
+		<span>fork</span>
+	</div>
+	<div class="preview">
+		<span class="preview__icon">
+			<span class="jimo jimo-gauge"></span>
+		</span>
+		<span>gauge</span>
+	</div>
+	<div class="preview">
+		<span class="preview__icon">
+			<span class="jimo jimo-incoming-inspection"></span>
+		</span>
+		<span>incoming-inspection</span>
+	</div>
+	<div class="preview">
+		<span class="preview__icon">
+			<span class="jimo jimo-input"></span>
+		</span>
+		<span>input</span>
+	</div>
+	<div class="preview">
+		<span class="preview__icon">
+			<span class="jimo jimo-intelligent-report"></span>
+		</span>
+		<span>intelligent-report</span>
+	</div>
+	<div class="preview">
+		<span class="preview__icon">
+			<span class="jimo jimo-inventory-management"></span>
+		</span>
+		<span>inventory-management</span>
+	</div>
+	<div class="preview">
+		<span class="preview__icon">
+			<span class="jimo jimo-inventory"></span>
+		</span>
+		<span>inventory</span>
+	</div>
+	<div class="preview">
+		<span class="preview__icon">
+			<span class="jimo jimo-measurement-data-analysis"></span>
+		</span>
+		<span>measurement-data-analysis</span>
+	</div>
+	<div class="preview">
+		<span class="preview__icon">
+			<span class="jimo jimo-mechanical-analysis"></span>
+		</span>
+		<span>mechanical-analysis</span>
+	</div>
+	<div class="preview">
+		<span class="preview__icon">
+			<span class="jimo jimo-metrological-instrument-management"></span>
+		</span>
+		<span>metrological-instrument-management</span>
+	</div>
+	<div class="preview">
+		<span class="preview__icon">
+			<span class="jimo jimo-number-input"></span>
+		</span>
+		<span>number-input</span>
+	</div>
+	<div class="preview">
+		<span class="preview__icon">
+			<span class="jimo jimo-plus"></span>
+		</span>
+		<span>plus</span>
+	</div>
+	<div class="preview">
+		<span class="preview__icon">
+			<span class="jimo jimo-ppap"></span>
+		</span>
+		<span>ppap</span>
+	</div>
+	<div class="preview">
+		<span class="preview__icon">
+			<span class="jimo jimo-problem-analysis"></span>
+		</span>
+		<span>problem-analysis</span>
+	</div>
+	<div class="preview">
+		<span class="preview__icon">
+			<span class="jimo jimo-process-events"></span>
+		</span>
+		<span>process-events</span>
+	</div>
+	<div class="preview">
+		<span class="preview__icon">
+			<span class="jimo jimo-product-information-management"></span>
+		</span>
+		<span>product-information-management</span>
+	</div>
+	<div class="preview">
+		<span class="preview__icon">
+			<span class="jimo jimo-product-traceability"></span>
+		</span>
+		<span>product-traceability</span>
+	</div>
+	<div class="preview">
+		<span class="preview__icon">
+			<span class="jimo jimo-product"></span>
+		</span>
+		<span>product</span>
+	</div>
+	<div class="preview">
+		<span class="preview__icon">
+			<span class="jimo jimo-production-management"></span>
+		</span>
+		<span>production-management</span>
+	</div>
+	<div class="preview">
+		<span class="preview__icon">
+			<span class="jimo jimo-production-process"></span>
+		</span>
+		<span>production-process</span>
+	</div>
+	<div class="preview">
+		<span class="preview__icon">
+			<span class="jimo jimo-purchasing-management"></span>
+		</span>
+		<span>purchasing-management</span>
+	</div>
+	<div class="preview">
+		<span class="preview__icon">
+			<span class="jimo jimo-quality-problem-tracking"></span>
+		</span>
+		<span>quality-problem-tracking</span>
+	</div>
+	<div class="preview">
+		<span class="preview__icon">
+			<span class="jimo jimo-question-circle"></span>
+		</span>
+		<span>question-circle</span>
+	</div>
+	<div class="preview">
+		<span class="preview__icon">
+			<span class="jimo jimo-radio"></span>
+		</span>
+		<span>radio</span>
+	</div>
+	<div class="preview">
+		<span class="preview__icon">
+			<span class="jimo jimo-retry"></span>
+		</span>
+		<span>retry</span>
+	</div>
+	<div class="preview">
+		<span class="preview__icon">
+			<span class="jimo jimo-select"></span>
+		</span>
+		<span>select</span>
+	</div>
+	<div class="preview">
+		<span class="preview__icon">
+			<span class="jimo jimo-shipments-detection"></span>
+		</span>
+		<span>shipments-detection</span>
+	</div>
+	<div class="preview">
+		<span class="preview__icon">
+			<span class="jimo jimo-smles-management"></span>
+		</span>
+		<span>smles-management</span>
+	</div>
+	<div class="preview">
+		<span class="preview__icon">
+			<span class="jimo jimo-switch"></span>
+		</span>
+		<span>switch</span>
+	</div>
+	<div class="preview">
+		<span class="preview__icon">
+			<span class="jimo jimo-text-area"></span>
+		</span>
+		<span>text-area</span>
+	</div>
+	<div class="preview">
+		<span class="preview__icon">
+			<span class="jimo jimo-tick"></span>
+		</span>
+		<span>tick</span>
+	</div>
+	<div class="preview">
+		<span class="preview__icon">
+			<span class="jimo jimo-tooling-management"></span>
+		</span>
+		<span>tooling-management</span>
+	</div>
+	<div class="preview">
+		<span class="preview__icon">
+			<span class="jimo jimo-upload"></span>
+		</span>
+		<span>upload</span>
+	</div>
+	<div class="preview">
+		<span class="preview__icon">
+			<span class="jimo jimo-uploadbox"></span>
+		</span>
+		<span>uploadbox</span>
+	</div>
+	<div class="preview">
+		<span class="preview__icon">
+			<span class="jimo jimo-users"></span>
+		</span>
+		<span>users</span>
+	</div>
+	<div class="preview">
+		<span class="preview__icon">
+			<span class="jimo jimo-warn-circle-outline"></span>
+		</span>
+		<span>warn-circle-outline</span>
+	</div>
+	<div class="preview">
+		<span class="preview__icon">
+			<span class="jimo jimo-wechat-circle"></span>
+		</span>
+		<span>wechat-circle</span>
+	</div>
+	<div class="preview">
+		<span class="preview__icon">
+			<span class="jimo jimo-wechat"></span>
+		</span>
+		<span>wechat</span>
+	</div>
+</body>
+</html>
