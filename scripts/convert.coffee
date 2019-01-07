@@ -59,6 +59,14 @@ webfontsGenerator
     "svg/warn-circle-outline.svg",
     "svg/wechat-circle.svg",
     "svg/wechat.svg",
+    'svg/collector-incoming-inspection.svg',
+    'svg/collector-outgoing-inspection.svg',
+    'svg/collector-packing.svg',
+    'svg/collector-process-checking.svg',
+    'svg/collector-tooling-maintenance.svg',
+    'svg/collector-warehouse-in.svg',
+    'svg/collector-warehouse-out.svg',
+    'svg/collector-workflow.svg',
   ]
   dest: 'src/fonts/'
   cssDest: 'src/fonts/jimo.css'

@@ -1,10 +1,10 @@
 @font-face {
 	font-family: "Jimo";
-	src: url("Jimo.eot?24f532dd6d9437d29e4c8c5269544afd?#iefix") format("embedded-opentype"),
-url("Jimo.woff2?24f532dd6d9437d29e4c8c5269544afd") format("woff2"),
-url("Jimo.woff?24f532dd6d9437d29e4c8c5269544afd") format("woff"),
-url("Jimo.ttf?24f532dd6d9437d29e4c8c5269544afd") format("truetype"),
-url("Jimo.svg?24f532dd6d9437d29e4c8c5269544afd#Jimo") format("svg");
+	src: url("Jimo.eot?3145b4f089f97b1a716eecb4e891cc6c?#iefix") format("embedded-opentype"),
+url("Jimo.woff2?3145b4f089f97b1a716eecb4e891cc6c") format("woff2"),
+url("Jimo.woff?3145b4f089f97b1a716eecb4e891cc6c") format("woff"),
+url("Jimo.ttf?3145b4f089f97b1a716eecb4e891cc6c") format("truetype"),
+url("Jimo.svg?3145b4f089f97b1a716eecb4e891cc6c#Jimo") format("svg");
 }
 
 .jimo {
@@ -188,4 +188,28 @@ url("Jimo.svg?24f532dd6d9437d29e4c8c5269544afd#Jimo") format("svg");
 }
 .jimo-wechat:before {
 	content: "\f139";
+}
+.jimo-collector-incoming-inspection:before {
+	content: "\f13a";
+}
+.jimo-collector-outgoing-inspection:before {
+	content: "\f13b";
+}
+.jimo-collector-packing:before {
+	content: "\f13c";
+}
+.jimo-collector-process-checking:before {
+	content: "\f13d";
+}
+.jimo-collector-tooling-maintenance:before {
+	content: "\f13e";
+}
+.jimo-collector-warehouse-in:before {
+	content: "\f13f";
+}
+.jimo-collector-warehouse-out:before {
+	content: "\f140";
+}
+.jimo-collector-workflow:before {
+	content: "\f141";
 }

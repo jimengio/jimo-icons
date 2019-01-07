@@ -93,5 +93,13 @@ export enum EJimoIcon {
   users = "users",
   warnCircleOutline = "warn-circle-outline",
   wechat = "wechat",
-  wechatCircle = "wechat-circle"
+  wechatCircle = "wechat-circle",
+  collectorIncomingInspection = 'collector-incoming-inspection',
+  collectorOutgoingInspection = 'collector-outgoing-inspection',
+  collectorPacking = 'collector-packing',
+  collectorProcessChecking = 'collector-process-checking',
+  collectorToolingMaintenance = 'collector-tooling-maintenance',
+  collectorWarehouseIn = 'collector-warehouse-in',
+  collectorWarehouseOut = 'collector-warehouse-out',
+  collectorWorkflow = 'collector-workflow',
 }
