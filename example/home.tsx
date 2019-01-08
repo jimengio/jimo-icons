@@ -41,8 +41,10 @@ const styleExample = css`
   font-family: Helvetica;
   height: 80px;
   display: inline-block;
-  width: 160px;
+  width: 120px;
   text-align: center;
+  vertical-align: top;
+  padding: 8px;
 `;
 
 const styleIcon = css`
@@ -57,6 +59,7 @@ const styleName = css`
   color: hsl(0, 0%, 70%);
   font-size: 13px;
   word-break: break-all;
+  min-height: 40px;
 `;
 
 const styleContainer = css`
