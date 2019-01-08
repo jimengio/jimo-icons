@@ -7,6 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "compile": "tsc -d src/jimo-icon.tsx --outDir lib/ --jsx react && yarn cp",
     "cp": "cp -r src/fonts lib/",
+    "watch": "webpack-dev-server",
+    "build": "webpack --config=webpack.release.js",
+    "up": "rsync -avr --progress dist/* fe.jimu.io:repo/jimengio/jimo-icons",
     "prepublish": "yarn compile"
   },
   "repository": {

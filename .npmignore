@@ -7,3 +7,4 @@ webpack.config.json
 scripts/
 template.js
 yarn.lock
+dist/
