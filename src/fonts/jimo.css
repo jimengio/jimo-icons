@@ -1,10 +1,10 @@
 @font-face {
 	font-family: "Jimo";
-	src: url("Jimo.eot?5abfbbf5ba16d11566aaa7af02733a07?#iefix") format("embedded-opentype"),
-url("Jimo.woff2?5abfbbf5ba16d11566aaa7af02733a07") format("woff2"),
-url("Jimo.woff?5abfbbf5ba16d11566aaa7af02733a07") format("woff"),
-url("Jimo.ttf?5abfbbf5ba16d11566aaa7af02733a07") format("truetype"),
-url("Jimo.svg?5abfbbf5ba16d11566aaa7af02733a07#Jimo") format("svg");
+	src: url("Jimo.eot?38a9f1bb30803af592cc199d0372e963?#iefix") format("embedded-opentype"),
+url("Jimo.woff2?38a9f1bb30803af592cc199d0372e963") format("woff2"),
+url("Jimo.woff?38a9f1bb30803af592cc199d0372e963") format("woff"),
+url("Jimo.ttf?38a9f1bb30803af592cc199d0372e963") format("truetype"),
+url("Jimo.svg?38a9f1bb30803af592cc199d0372e963#Jimo") format("svg");
 }
 
 .jimo {
@@ -147,48 +147,51 @@ url("Jimo.svg?5abfbbf5ba16d11566aaa7af02733a07#Jimo") format("svg");
 .jimo-select:before {
 	content: "\f12b";
 }
-.jimo-shipments-detection:before {
+.jimo-shanghai-electric:before {
 	content: "\f12c";
 }
-.jimo-sales-management:before {
+.jimo-shipments-detection:before {
 	content: "\f12d";
 }
-.jimo-switch:before {
+.jimo-sales-management:before {
 	content: "\f12e";
 }
-.jimo-text-area:before {
+.jimo-switch:before {
 	content: "\f12f";
 }
-.jimo-tick:before {
+.jimo-text-area:before {
 	content: "\f130";
 }
-.jimo-tooling-management:before {
+.jimo-tick:before {
 	content: "\f131";
 }
-.jimo-upload:before {
+.jimo-tooling-management:before {
 	content: "\f132";
 }
-.jimo-uploadbox:before {
+.jimo-upload:before {
 	content: "\f133";
 }
-.jimo-users:before {
+.jimo-uploadbox:before {
 	content: "\f134";
 }
-.jimo-warn-circle-outline:before {
+.jimo-users:before {
 	content: "\f135";
 }
-.jimo-wechat-circle:before {
+.jimo-warn-circle-outline:before {
 	content: "\f136";
 }
-.jimo-wechat:before {
+.jimo-wechat-circle:before {
 	content: "\f137";
 }
-.jimo-packing:before {
+.jimo-wechat:before {
 	content: "\f138";
 }
-.jimo-warehouse-in:before {
+.jimo-packing:before {
 	content: "\f139";
 }
-.jimo-warehouse-out:before {
+.jimo-warehouse-in:before {
 	content: "\f13a";
+}
+.jimo-warehouse-out:before {
+	content: "\f13b";
 }

@@ -80,6 +80,7 @@ export enum EJimoIcon {
   radio = "radio",
   retry = "retry",
   select = "select",
+  shanghaiElectric = "shanghai-electric",
   shipmentsDetection = "shipments-detection",
   salesManagement = "sales-management",
   switch = "switch",

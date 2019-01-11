@@ -45,6 +45,7 @@ webfontsGenerator
     "svg/radio.svg",
     "svg/retry.svg",
     "svg/select.svg",
+    "svg/shanghai-electric.svg",
     "svg/shipments-detection.svg",
     "svg/sales-management.svg",
     "svg/switch.svg",
