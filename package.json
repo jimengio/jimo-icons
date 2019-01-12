@@ -10,7 +10,8 @@
     "watch": "webpack-dev-server",
     "build": "webpack --config=webpack.release.js",
     "up": "rsync -avr --progress dist/* fe.jimu.io:repo/jimengio/jimo-icons",
-    "prepublish": "yarn compile"
+    "prepublish": "yarn compile",
+    "update-svg": "node read-svg.js"
   },
   "repository": {
     "type": "git",
