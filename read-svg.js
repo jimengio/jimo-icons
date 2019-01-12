@@ -4,7 +4,7 @@ const OutputFileName = "svg-map.json";
 const OutputFilePath = `${SvgPath}${OutputFileName}`;
 
 function formatFile(arr) {
-  return arr.map(item => `svg/${item}`);
+  return arr.filter(item => /(.svg)$/.test(item)).map(item => `svg/${item}`);
 }
 
 fs.readdir(SvgPath, (err, files) => {
@@ -19,10 +19,10 @@ fs.readdir(SvgPath, (err, files) => {
       JSON.stringify(filePathArr, null, "\t"),
       err => {
         if (err) {
-          return console.warn("OutputFileName：", err);
+          return console.warn("Write file error: ", err);
         } else {
           return console.log(
-            `Enter ${filePathArr.length} SVG files in ${OutputFilePath}`
+            `Enter ${filePathArr.length}/${files.length} SVG files in ${OutputFilePath}`
           );
         }
       }
