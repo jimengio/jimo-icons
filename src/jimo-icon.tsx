@@ -20,7 +20,7 @@ export default class JimoIcon extends Component<IconProps, any> {
     let iconPrefix = "jimo";
     let classNames = iconPrefix;
 
-    classNames += ` ${iconPrefix}-` + name;
+    classNames += ` ${iconPrefix}-${name}`;
 
     classNames = className ? cx(classNames, className) : classNames;
 
