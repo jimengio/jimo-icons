@@ -20,7 +20,7 @@ export default class JimoIcon extends Component<IconProps, any> {
     let iconPrefix = "jimo";
     let classNames = iconPrefix;
 
-    classNames += ` ${iconPrefix}-` + name;
+    classNames += ` ${iconPrefix}-${name}`;
 
     classNames = className ? cx(classNames, className) : classNames;
 
@@ -80,6 +80,7 @@ export enum EJimoIcon {
   radio = "radio",
   retry = "retry",
   select = "select",
+  shanghaiElectric = "shanghai-electric",
   shipmentsDetection = "shipments-detection",
   salesManagement = "sales-management",
   switch = "switch",
