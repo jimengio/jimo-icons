@@ -1,8 +1,8 @@
 webfontsGenerator = require 'webfonts-generator';
-svgMap = require '../svg/svg-map.json';
+fs = require 'fs'
 
 webfontsGenerator
-  files: svgMap
+  files: fs.readdirSync('svg').sort().map((x) -> "svg/#{x}")
   dest: 'src/fonts/'
   cssDest: 'src/fonts/jimo.css'
   html: true
