@@ -6,6 +6,7 @@
   "types": "./lib/jimo-icon.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "gen": "coffee scripts/convert.coffee",
     "compile": "tsc -d src/jimo-icon.tsx --outDir lib/ --jsx react && yarn cp",
     "cp": "cp -r src/fonts lib/",
     "watch": "webpack-dev-server",

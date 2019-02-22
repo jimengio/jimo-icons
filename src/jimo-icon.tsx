@@ -86,6 +86,7 @@ export enum EJimoIcon {
   select = "select",
   shanghaiElectric = "shanghai-electric",
   shipmentsDetection = "shipments-detection",
+  slimCross = "slim-cross",
   switch = "switch",
   textArea = "text-area",
   tick = "tick",
