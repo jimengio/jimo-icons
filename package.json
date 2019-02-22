@@ -1,8 +1,9 @@
 {
   "name": "@jimengio/jimo-icons",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Self-made icons",
   "main": "lib/jimo-icon.js",
+  "types": "./lib/jimo-icon.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "compile": "tsc -d src/jimo-icon.tsx --outDir lib/ --jsx react && yarn cp",
