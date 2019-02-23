@@ -12,7 +12,7 @@ class Container extends React.Component<any, any> {
       <div className={styleContainer}>
         {names.map(name => {
           return (
-            <div className={styleExample}>
+            <div key={name} className={styleExample}>
               <JimoIcon className={styleIcon} name={name} />
               <div className={styleName}>{name}</div>
             </div>

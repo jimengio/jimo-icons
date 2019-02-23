@@ -64,6 +64,7 @@ export enum EJimoIcon {
   intelligentReport = "intelligent-report",
   inventory = "inventory",
   inventoryManagement = "inventory-management",
+  loading = "loading",
   measurementDataAnalysis = "measurement-data-analysis",
   mechanicalAnalysis = "mechanical-analysis",
   numberInput = "number-input",
