@@ -2,14 +2,24 @@
 
 ### Usage
 
+![](https://img.shields.io/npm/v/@jimengio/jimo-icons.svg?style=flat-square)
+
 ```bash
 yarn add @jimengio/jimo-icons
 ```
 
 ```tsx
-import JimoIcon, { EJimoIcon } from "../src/jimo-icon";
+import JimoIcon, { EJimoIcon } from "@jimengio/jimo-icons";
 
 <JimoIcon name={EJimoIcon.tick} />;
+```
+
+### Develop
+
+```bash
+yarn
+yarn gen # to generate CSS files
+yarn watch # launcher page server
 ```
 
 ### 注意事项
