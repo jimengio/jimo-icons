@@ -8,3 +8,6 @@ scripts/
 template.js
 yarn.lock
 dist/
+
+yarn-error.log
+**/.DS_Store

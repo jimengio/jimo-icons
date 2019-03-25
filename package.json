@@ -40,6 +40,7 @@
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
     "style-loader": "^0.23.1",
+    "svgo": "^1.2.0",
     "typescript": "^3.3.3333",
     "url-loader": "^1.1.2",
     "webfonts-generator": "sunflowerdeath/webfonts-generator",
