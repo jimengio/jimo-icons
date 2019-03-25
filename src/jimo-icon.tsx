@@ -105,5 +105,7 @@ export enum EJimoIcon {
   wechat = "wechat",
   wechatCircle = "wechat-circle",
   zoomIn = "zoom-in",
-  zoomOut = "zoom-out"
+  zoomOut = "zoom-out",
+  ipc = "ipc",
+  scan = "scan",
 }
