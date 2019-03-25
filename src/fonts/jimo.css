@@ -1,10 +1,10 @@
 @font-face {
 	font-family: "Jimo";
-	src: url("Jimo.eot?61e1e49d10d53ff66a56c7b6f06b6cde?#iefix") format("embedded-opentype"),
-url("Jimo.woff2?61e1e49d10d53ff66a56c7b6f06b6cde") format("woff2"),
-url("Jimo.woff?61e1e49d10d53ff66a56c7b6f06b6cde") format("woff"),
-url("Jimo.ttf?61e1e49d10d53ff66a56c7b6f06b6cde") format("truetype"),
-url("Jimo.svg?61e1e49d10d53ff66a56c7b6f06b6cde#Jimo") format("svg");
+	src: url("Jimo.eot?c472ab6bd4ef891ee16cc12f50b60fdc?#iefix") format("embedded-opentype"),
+url("Jimo.woff2?c472ab6bd4ef891ee16cc12f50b60fdc") format("woff2"),
+url("Jimo.woff?c472ab6bd4ef891ee16cc12f50b60fdc") format("woff"),
+url("Jimo.ttf?c472ab6bd4ef891ee16cc12f50b60fdc") format("truetype"),
+url("Jimo.svg?c472ab6bd4ef891ee16cc12f50b60fdc#Jimo") format("svg");
 }
 
 .jimo {
@@ -117,126 +117,132 @@ url("Jimo.svg?61e1e49d10d53ff66a56c7b6f06b6cde#Jimo") format("svg");
 .jimo-inventory:before {
 	content: "\f121";
 }
-.jimo-loading:before {
+.jimo-ipc:before {
 	content: "\f122";
 }
-.jimo-measurement-data-analysis:before {
+.jimo-loading:before {
 	content: "\f123";
 }
-.jimo-mechanical-analysis:before {
+.jimo-measurement-data-analysis:before {
 	content: "\f124";
 }
-.jimo-number-input:before {
+.jimo-mechanical-analysis:before {
 	content: "\f125";
 }
-.jimo-packing:before {
+.jimo-number-input:before {
 	content: "\f126";
 }
-.jimo-plus:before {
+.jimo-packing:before {
 	content: "\f127";
 }
-.jimo-ppap:before {
+.jimo-plus:before {
 	content: "\f128";
 }
-.jimo-problem-analysis:before {
+.jimo-ppap:before {
 	content: "\f129";
 }
-.jimo-process-events:before {
+.jimo-problem-analysis:before {
 	content: "\f12a";
 }
-.jimo-product-information-management:before {
+.jimo-process-events:before {
 	content: "\f12b";
 }
-.jimo-product-traceability:before {
+.jimo-product-information-management:before {
 	content: "\f12c";
 }
-.jimo-product:before {
+.jimo-product-traceability:before {
 	content: "\f12d";
 }
-.jimo-production-management:before {
+.jimo-product:before {
 	content: "\f12e";
 }
-.jimo-production-process:before {
+.jimo-production-management:before {
 	content: "\f12f";
 }
-.jimo-purchasing-management:before {
+.jimo-production-process:before {
 	content: "\f130";
 }
-.jimo-quality-problem-tracking:before {
+.jimo-purchasing-management:before {
 	content: "\f131";
 }
-.jimo-question-circle:before {
+.jimo-quality-problem-tracking:before {
 	content: "\f132";
 }
-.jimo-radio:before {
+.jimo-question-circle:before {
 	content: "\f133";
 }
-.jimo-retry:before {
+.jimo-radio:before {
 	content: "\f134";
 }
-.jimo-sales-management:before {
+.jimo-retry:before {
 	content: "\f135";
 }
-.jimo-select:before {
+.jimo-sales-management:before {
 	content: "\f136";
 }
-.jimo-serial-number:before {
+.jimo-scan:before {
 	content: "\f137";
 }
-.jimo-shanghai-electric:before {
+.jimo-select:before {
 	content: "\f138";
 }
-.jimo-shipments-detection:before {
+.jimo-serial-number:before {
 	content: "\f139";
 }
-.jimo-slim-cross:before {
+.jimo-shanghai-electric:before {
 	content: "\f13a";
 }
-.jimo-switch:before {
+.jimo-shipments-detection:before {
 	content: "\f13b";
 }
-.jimo-table-horizontal:before {
+.jimo-slim-cross:before {
 	content: "\f13c";
 }
-.jimo-table-vertical:before {
+.jimo-switch:before {
 	content: "\f13d";
 }
-.jimo-text-area:before {
+.jimo-table-horizontal:before {
 	content: "\f13e";
 }
-.jimo-tick:before {
+.jimo-table-vertical:before {
 	content: "\f13f";
 }
-.jimo-tooling-management:before {
+.jimo-text-area:before {
 	content: "\f140";
 }
-.jimo-upload:before {
+.jimo-tick:before {
 	content: "\f141";
 }
-.jimo-uploadbox:before {
+.jimo-tooling-management:before {
 	content: "\f142";
 }
-.jimo-users:before {
+.jimo-upload:before {
 	content: "\f143";
 }
-.jimo-warehouse-in:before {
+.jimo-uploadbox:before {
 	content: "\f144";
 }
-.jimo-warehouse-out:before {
+.jimo-users:before {
 	content: "\f145";
 }
-.jimo-warn-circle-outline:before {
+.jimo-warehouse-in:before {
 	content: "\f146";
 }
-.jimo-wechat-circle:before {
+.jimo-warehouse-out:before {
 	content: "\f147";
 }
-.jimo-wechat:before {
+.jimo-warn-circle-outline:before {
 	content: "\f148";
 }
-.jimo-zoom-in:before {
+.jimo-wechat-circle:before {
 	content: "\f149";
 }
-.jimo-zoom-out:before {
+.jimo-wechat:before {
 	content: "\f14a";
+}
+.jimo-zoom-in:before {
+	content: "\f14b";
+}
+.jimo-zoom-out:before {
+	content: "\f14c";
 }
