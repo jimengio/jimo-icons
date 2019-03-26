@@ -1,10 +1,10 @@
 @font-face {
 	font-family: "Jimo";
-	src: url("Jimo.eot?c472ab6bd4ef891ee16cc12f50b60fdc?#iefix") format("embedded-opentype"),
-url("Jimo.woff2?c472ab6bd4ef891ee16cc12f50b60fdc") format("woff2"),
-url("Jimo.woff?c472ab6bd4ef891ee16cc12f50b60fdc") format("woff"),
-url("Jimo.ttf?c472ab6bd4ef891ee16cc12f50b60fdc") format("truetype"),
-url("Jimo.svg?c472ab6bd4ef891ee16cc12f50b60fdc#Jimo") format("svg");
+	src: url("Jimo.eot?578be75774cc8ff3c76a595bc3b1c547?#iefix") format("embedded-opentype"),
+url("Jimo.woff2?578be75774cc8ff3c76a595bc3b1c547") format("woff2"),
+url("Jimo.woff?578be75774cc8ff3c76a595bc3b1c547") format("woff"),
+url("Jimo.ttf?578be75774cc8ff3c76a595bc3b1c547") format("truetype"),
+url("Jimo.svg?578be75774cc8ff3c76a595bc3b1c547#Jimo") format("svg");
 }
 
 .jimo {
@@ -54,195 +54,204 @@ url("Jimo.svg?c472ab6bd4ef891ee16cc12f50b60fdc#Jimo") format("svg");
 .jimo-container:before {
 	content: "\f10c";
 }
-.jimo-data-analysis:before {
+.jimo-cross-embossed:before {
 	content: "\f10d";
 }
-.jimo-defect-analysis:before {
+.jimo-data-analysis:before {
 	content: "\f10e";
 }
-.jimo-device:before {
+.jimo-defect-analysis:before {
 	content: "\f10f";
 }
-.jimo-download:before {
+.jimo-device:before {
 	content: "\f110";
 }
-.jimo-envelop-open:before {
+.jimo-download:before {
 	content: "\f111";
 }
-.jimo-envelop:before {
+.jimo-envelop-open:before {
 	content: "\f112";
 }
-.jimo-file-excel_cf:before {
+.jimo-envelop:before {
 	content: "\f113";
 }
-.jimo-file-jpg_cf:before {
+.jimo-file-excel_cf:before {
 	content: "\f114";
 }
-.jimo-file-pdf_cf:before {
+.jimo-file-jpg_cf:before {
 	content: "\f115";
 }
-.jimo-file-unkown_cf:before {
+.jimo-file-pdf_cf:before {
 	content: "\f116";
 }
-.jimo-file-word_cf:before {
+.jimo-file-unkown_cf:before {
 	content: "\f117";
 }
-.jimo-flow-control-analysis:before {
+.jimo-file-word_cf:before {
 	content: "\f118";
 }
-.jimo-fork:before {
+.jimo-flow-control-analysis:before {
 	content: "\f119";
 }
-.jimo-fullscreen:before {
+.jimo-fork:before {
 	content: "\f11a";
 }
-.jimo-gauge:before {
+.jimo-fullscreen:before {
 	content: "\f11b";
 }
-.jimo-incoming-inspection:before {
+.jimo-gauge:before {
 	content: "\f11c";
 }
-.jimo-input:before {
+.jimo-incoming-inspection:before {
 	content: "\f11d";
 }
-.jimo-inspection:before {
+.jimo-info-embossed:before {
 	content: "\f11e";
 }
-.jimo-intelligent-report:before {
+.jimo-input:before {
 	content: "\f11f";
 }
-.jimo-inventory-management:before {
+.jimo-inspection:before {
 	content: "\f120";
 }
-.jimo-inventory:before {
+.jimo-intelligent-report:before {
 	content: "\f121";
 }
-.jimo-ipc:before {
+.jimo-inventory-management:before {
 	content: "\f122";
 }
-.jimo-loading:before {
+.jimo-inventory:before {
 	content: "\f123";
 }
-.jimo-measurement-data-analysis:before {
+.jimo-ipc:before {
 	content: "\f124";
 }
-.jimo-mechanical-analysis:before {
+.jimo-loading:before {
 	content: "\f125";
 }
-.jimo-number-input:before {
+.jimo-measurement-data-analysis:before {
 	content: "\f126";
 }
-.jimo-packing:before {
+.jimo-mechanical-analysis:before {
 	content: "\f127";
 }
-.jimo-plus:before {
+.jimo-number-input:before {
 	content: "\f128";
 }
-.jimo-ppap:before {
+.jimo-packing:before {
 	content: "\f129";
 }
-.jimo-problem-analysis:before {
+.jimo-plus:before {
 	content: "\f12a";
 }
-.jimo-process-events:before {
+.jimo-ppap:before {
 	content: "\f12b";
 }
-.jimo-product-information-management:before {
+.jimo-problem-analysis:before {
 	content: "\f12c";
 }
-.jimo-product-traceability:before {
+.jimo-process-events:before {
 	content: "\f12d";
 }
-.jimo-product:before {
+.jimo-product-information-management:before {
 	content: "\f12e";
 }
-.jimo-production-management:before {
+.jimo-product-traceability:before {
 	content: "\f12f";
 }
-.jimo-production-process:before {
+.jimo-product:before {
 	content: "\f130";
 }
-.jimo-purchasing-management:before {
+.jimo-production-management:before {
 	content: "\f131";
 }
-.jimo-quality-problem-tracking:before {
+.jimo-production-process:before {
 	content: "\f132";
 }
-.jimo-question-circle:before {
+.jimo-purchasing-management:before {
 	content: "\f133";
 }
-.jimo-radio:before {
+.jimo-quality-problem-tracking:before {
 	content: "\f134";
 }
-.jimo-retry:before {
+.jimo-question-circle:before {
 	content: "\f135";
 }
-.jimo-sales-management:before {
+.jimo-radio:before {
 	content: "\f136";
 }
-.jimo-scan:before {
+.jimo-retry:before {
 	content: "\f137";
 }
-.jimo-select:before {
+.jimo-sales-management:before {
 	content: "\f138";
 }
-.jimo-serial-number:before {
+.jimo-scan:before {
 	content: "\f139";
 }
-.jimo-shanghai-electric:before {
+.jimo-select:before {
 	content: "\f13a";
 }
-.jimo-shipments-detection:before {
+.jimo-serial-number:before {
 	content: "\f13b";
 }
-.jimo-slim-cross:before {
+.jimo-shanghai-electric:before {
 	content: "\f13c";
 }
-.jimo-switch:before {
+.jimo-shipments-detection:before {
 	content: "\f13d";
 }
-.jimo-table-horizontal:before {
+.jimo-slim-cross:before {
 	content: "\f13e";
 }
-.jimo-table-vertical:before {
+.jimo-switch:before {
 	content: "\f13f";
 }
-.jimo-text-area:before {
+.jimo-table-horizontal:before {
 	content: "\f140";
 }
-.jimo-tick:before {
+.jimo-table-vertical:before {
 	content: "\f141";
 }
-.jimo-tooling-management:before {
+.jimo-text-area:before {
 	content: "\f142";
 }
-.jimo-upload:before {
+.jimo-tick-embossed:before {
 	content: "\f143";
 }
-.jimo-uploadbox:before {
+.jimo-tick:before {
 	content: "\f144";
 }
-.jimo-users:before {
+.jimo-tooling-management:before {
 	content: "\f145";
 }
-.jimo-warehouse-in:before {
+.jimo-upload:before {
 	content: "\f146";
 }
-.jimo-warehouse-out:before {
+.jimo-uploadbox:before {
 	content: "\f147";
 }
-.jimo-warn-circle-outline:before {
+.jimo-users:before {
 	content: "\f148";
 }
-.jimo-wechat-circle:before {
+.jimo-warehouse-in:before {
 	content: "\f149";
 }
-.jimo-wechat:before {
+.jimo-warehouse-out:before {
 	content: "\f14a";
 }
-.jimo-zoom-in:before {
+.jimo-warn-circle-outline:before {
 	content: "\f14b";
 }
-.jimo-zoom-out:before {
+.jimo-wechat-circle:before {
 	content: "\f14c";
+}
+.jimo-wechat:before {
+	content: "\f14d";
+}
+.jimo-zoom-in:before {
+	content: "\f14e";
+}
+.jimo-zoom-out:before {
+	content: "\f14f";
 }

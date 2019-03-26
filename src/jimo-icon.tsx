@@ -108,4 +108,7 @@ export enum EJimoIcon {
   zoomOut = "zoom-out",
   ipc = "ipc",
   scan = "scan",
+  tickEmbossed = "tick-embossed",
+  crossEmbossed = "cross-embossed",
+  infoEmbossed = "info-embossed"
 }
