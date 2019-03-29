@@ -110,5 +110,6 @@ export enum EJimoIcon {
   scan = "scan",
   tickEmbossed = "tick-embossed",
   crossEmbossed = "cross-embossed",
-  infoEmbossed = "info-embossed"
+  infoEmbossed = "info-embossed",
+  ellipsisHorizontal = "ellipsis-horizontal"
 }
