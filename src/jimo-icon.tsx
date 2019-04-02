@@ -46,6 +46,7 @@ export enum EJimoIcon {
   checkCircle = "check-circle",
   checkCircleO = "check-circle-o",
   checkCircleOutline = "check-circle-outline",
+  checkInfo = "check-info",
   clock = "clock",
   configurationCenter = "configuration-center",
   container = "container",
