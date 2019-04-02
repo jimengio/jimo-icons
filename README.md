@@ -28,6 +28,15 @@ yarn watch # launcher page server
 - 制作的 icon 需要用线, 避免生成字体之后内容丢失.
 - SVG 文件优先采用背景透明的版本, 更加可靠.
 
+### Step
+
+1. yarn
+2. svgo svgName.svg
+3. add svg file (in ./svg)
+4. yarn gen
+5. edit EJimoIcon (./src/jimo-icon.tsx)
+6. yarn watch
+
 ### License
 
 UNLICENSED
