@@ -8,7 +8,7 @@ webfontsGenerator
   html: true
   htmlDest: 'src/fonts/index.html'
   types: ["eot", "woff", "woff2", "ttf", "svg"]
-  fontName: 'Jimo'
+  fontName: 'jimo'
   templateOptions:
     classPrefix: 'jimo-'
     baseSelector: '.jimo'

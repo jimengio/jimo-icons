@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "gen": "coffee scripts/convert.coffee",
     "compile": "tsc -d --project tsconfig-compile.json --outDir lib/",
-    "cp": "cp -r src/fonts lib/",
+    "cp": "rm -rf lib/* && cp -r src/fonts lib/",
     "watch": "webpack-dev-server",
     "build": "webpack --config=webpack.release.js",
     "up": "rsync -avr --progress dist/* fe.jimu.io:repo/jimengio/jimo-icons",
