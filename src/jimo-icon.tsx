@@ -70,6 +70,7 @@ export enum EJimoIcon {
   loading = "loading",
   measurementDataAnalysis = "measurement-data-analysis",
   mechanicalAnalysis = "mechanical-analysis",
+  mobile = "mobile",
   numberInput = "number-input",
   packing = "packing",
   plus = "plus",
