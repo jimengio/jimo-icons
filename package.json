@@ -1,6 +1,6 @@
 {
   "name": "@jimengio/jimo-icons",
-  "version": "0.1.17-a1",
+  "version": "0.1.17-a2",
   "description": "Self-made icons",
   "main": "lib/jimo-icon.js",
   "types": "./lib/jimo-icon.d.ts",
@@ -13,7 +13,7 @@
     "build": "webpack --config=webpack.release.js",
     "up": "rsync -avr --progress dist/* fe.jimu.io:repo/jimengio/jimo-icons",
     "postinstall": "rm -rfv node_modules/@types/react-*/node_modules/@types/react",
-    "prepublish": "yarn compile"
+    "prepare": "yarn gen && yarn cp && yarn compile"
   },
   "repository": {
     "type": "git",
