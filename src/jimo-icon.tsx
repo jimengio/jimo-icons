@@ -115,5 +115,6 @@ export enum EJimoIcon {
   tickEmbossed = "tick-embossed",
   crossEmbossed = "cross-embossed",
   infoEmbossed = "info-embossed",
+  questionCircleOutline = "question-circle-outline",
   ellipsisHorizontal = "ellipsis-horizontal"
 }
