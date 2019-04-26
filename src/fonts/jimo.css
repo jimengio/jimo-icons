@@ -1,10 +1,10 @@
 @font-face {
 	font-family: "jimo";
-	src: url("jimo.eot?bd940f4742100c5f0c1f617d855f488b?#iefix") format("embedded-opentype"),
-url("jimo.woff2?bd940f4742100c5f0c1f617d855f488b") format("woff2"),
-url("jimo.woff?bd940f4742100c5f0c1f617d855f488b") format("woff"),
-url("jimo.ttf?bd940f4742100c5f0c1f617d855f488b") format("truetype"),
-url("jimo.svg?bd940f4742100c5f0c1f617d855f488b#jimo") format("svg");
+	src: url("jimo.eot?fe2e1a4160d0936be83264b20afb907c?#iefix") format("embedded-opentype"),
+url("jimo.woff2?fe2e1a4160d0936be83264b20afb907c") format("woff2"),
+url("jimo.woff?fe2e1a4160d0936be83264b20afb907c") format("woff"),
+url("jimo.ttf?fe2e1a4160d0936be83264b20afb907c") format("truetype"),
+url("jimo.svg?fe2e1a4160d0936be83264b20afb907c#jimo") format("svg");
 }
 
 .jimo {
@@ -186,87 +186,90 @@ url("jimo.svg?bd940f4742100c5f0c1f617d855f488b#jimo") format("svg");
 .jimo-quality-problem-tracking:before {
 	content: "\f138";
 }
-.jimo-question-circle:before {
+.jimo-question-circle-outline:before {
 	content: "\f139";
 }
-.jimo-radio:before {
+.jimo-question-circle:before {
 	content: "\f13a";
 }
-.jimo-requirements:before {
+.jimo-radio:before {
 	content: "\f13b";
 }
-.jimo-retry:before {
+.jimo-requirements:before {
 	content: "\f13c";
 }
-.jimo-sales-management:before {
+.jimo-retry:before {
 	content: "\f13d";
 }
-.jimo-scan:before {
+.jimo-sales-management:before {
 	content: "\f13e";
 }
-.jimo-select:before {
+.jimo-scan:before {
 	content: "\f13f";
 }
-.jimo-serial-number:before {
+.jimo-select:before {
 	content: "\f140";
 }
-.jimo-shanghai-electric:before {
+.jimo-serial-number:before {
 	content: "\f141";
 }
-.jimo-shipments-detection:before {
+.jimo-shanghai-electric:before {
 	content: "\f142";
 }
-.jimo-slim-cross:before {
+.jimo-shipments-detection:before {
 	content: "\f143";
 }
-.jimo-switch:before {
+.jimo-slim-cross:before {
 	content: "\f144";
 }
-.jimo-table-horizontal:before {
+.jimo-switch:before {
 	content: "\f145";
 }
-.jimo-table-vertical:before {
+.jimo-table-horizontal:before {
 	content: "\f146";
 }
-.jimo-text-area:before {
+.jimo-table-vertical:before {
 	content: "\f147";
 }
-.jimo-tick-embossed:before {
+.jimo-text-area:before {
 	content: "\f148";
 }
-.jimo-tick:before {
+.jimo-tick-embossed:before {
 	content: "\f149";
 }
-.jimo-tooling-management:before {
+.jimo-tick:before {
 	content: "\f14a";
 }
-.jimo-upload:before {
+.jimo-tooling-management:before {
 	content: "\f14b";
 }
-.jimo-uploadbox:before {
+.jimo-upload:before {
 	content: "\f14c";
 }
-.jimo-users:before {
+.jimo-uploadbox:before {
 	content: "\f14d";
 }
-.jimo-warehouse-in:before {
+.jimo-users:before {
 	content: "\f14e";
 }
-.jimo-warehouse-out:before {
+.jimo-warehouse-in:before {
 	content: "\f14f";
 }
-.jimo-warn-circle-outline:before {
+.jimo-warehouse-out:before {
 	content: "\f150";
 }
-.jimo-wechat-circle:before {
+.jimo-warn-circle-outline:before {
 	content: "\f151";
 }
-.jimo-wechat:before {
+.jimo-wechat-circle:before {
 	content: "\f152";
 }
-.jimo-zoom-in:before {
+.jimo-wechat:before {
 	content: "\f153";
 }
-.jimo-zoom-out:before {
+.jimo-zoom-in:before {
 	content: "\f154";
+}
+.jimo-zoom-out:before {
+	content: "\f155";
 }
