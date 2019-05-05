@@ -1,8 +1,23 @@
 webfontsGenerator = require 'webfonts-generator';
 fs = require 'fs'
 path = require 'path'
+{ difference } = require 'lodash'
+
+# check icons
 
 icons = require './icons'
+currentIcons = fs.readdirSync(path.join(__dirname, '../svg/')).map((x) -> x.replace(".svg", ""))
+
+added = difference currentIcons, icons
+lostOnes = difference icons, currentIcons
+if added.length > 0
+  console.warn "Icons found in svg/ but not indexed:", added
+  process.exit 1
+if lostOnes.length > 0
+  console.warn "Icons not found in svg/ folder:", lostOnes
+  process.exit 1
+
+# update icon.tsx file
 
 srcFile = path.join __dirname, '../src/jimo-icon.tsx'
 sourceCode = fs.readFileSync srcFile, 'utf8'
@@ -22,6 +37,8 @@ enumLines = icons
 newFile = [chunks[0], enumLines, chunks[2]].join separator
 
 fs.writeFileSync srcFile, newFile
+
+# generate fonts
 
 webfontsGenerator
   files: icons.map((x) -> "svg/#{x}.svg")
