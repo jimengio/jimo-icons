@@ -116,5 +116,9 @@ export enum EJimoIcon {
   crossEmbossed = "cross-embossed",
   infoEmbossed = "info-embossed",
   questionCircleOutline = "question-circle-outline",
-  ellipsisHorizontal = "ellipsis-horizontal"
+  ellipsisHorizontal = "ellipsis-horizontal",
+  bgWarehouseIn = "bg-warehouse-in",
+  bgWarehouseOut = "bg-warehouse-out",
+  bgWarehouseTransfer = "bg-warehouse-transfer",
+  bgWarehouseCheck = "bg-warehouse-check"
 }
