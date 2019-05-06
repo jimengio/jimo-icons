@@ -24,22 +24,15 @@ export default class JimoIcon extends Component<IconProps, any> {
 
     classNames = className ? cx(classNames, className) : classNames;
 
-    return (
-      <i
-        style={style}
-        className={classNames}
-        aria-hidden="true"
-        onMouseEnter={this.props.onMouseEnter}
-        onClick={onClick}
-      />
-    );
+    return <i style={style} className={classNames} aria-hidden="true" onMouseEnter={this.props.onMouseEnter} onClick={onClick} />;
   }
 }
 
 export enum EJimoIcon {
+  // icons list
   application = "application",
   appsOverview = "apps-overview",
-  bellOutline = "bell-o",
+  bellOutline = "bell-outline",
   button = "button",
   calendar = "calendar",
   checkbox = "checkbox",
@@ -55,8 +48,8 @@ export enum EJimoIcon {
   device = "device",
   download = "download",
   emptyData = "empty-data",
-  envelope = "envelop",
-  envelopeOpen = "envelop-open",
+  envelope = "envelope",
+  envelopeOpen = "envelope-open",
   flowControlAnalysis = "flow-control-analysis",
   fork = "fork",
   fullscreen = "fullscreen",
@@ -101,7 +94,7 @@ export enum EJimoIcon {
   tick = "tick",
   toolingManagement = "tooling-management",
   upload = "upload",
-  uploadBox = "uploadbox",
+  uploadBox = "upload-box",
   users = "users",
   warehouseIn = "warehouse-in",
   warehouseOut = "warehouse-out",
@@ -116,5 +109,10 @@ export enum EJimoIcon {
   crossEmbossed = "cross-embossed",
   infoEmbossed = "info-embossed",
   questionCircleOutline = "question-circle-outline",
-  ellipsisHorizontal = "ellipsis-horizontal"
+  ellipsisHorizontal = "ellipsis-horizontal",
+  bgWarehouseIn = "bg-warehouse-in",
+  bgWarehouseOut = "bg-warehouse-out",
+  bgWarehouseTransfer = "bg-warehouse-transfer",
+  bgWarehouseCheck = "bg-warehouse-check",
+  // icons list
 }

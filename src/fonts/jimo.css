@@ -1,10 +1,10 @@
 @font-face {
 	font-family: "jimo";
-	src: url("jimo.eot?fe2e1a4160d0936be83264b20afb907c?#iefix") format("embedded-opentype"),
-url("jimo.woff2?fe2e1a4160d0936be83264b20afb907c") format("woff2"),
-url("jimo.woff?fe2e1a4160d0936be83264b20afb907c") format("woff"),
-url("jimo.ttf?fe2e1a4160d0936be83264b20afb907c") format("truetype"),
-url("jimo.svg?fe2e1a4160d0936be83264b20afb907c#jimo") format("svg");
+	src: url("jimo.eot?b568736f022eb4fc8c6ed10d029bd3dd?#iefix") format("embedded-opentype"),
+url("jimo.woff2?b568736f022eb4fc8c6ed10d029bd3dd") format("woff2"),
+url("jimo.woff?b568736f022eb4fc8c6ed10d029bd3dd") format("woff"),
+url("jimo.ttf?b568736f022eb4fc8c6ed10d029bd3dd") format("truetype"),
+url("jimo.svg?b568736f022eb4fc8c6ed10d029bd3dd#jimo") format("svg");
 }
 
 .jimo {
@@ -24,7 +24,7 @@ url("jimo.svg?fe2e1a4160d0936be83264b20afb907c#jimo") format("svg");
 .jimo-apps-overview:before {
 	content: "\f102";
 }
-.jimo-bell-o:before {
+.jimo-bell-outline:before {
 	content: "\f103";
 }
 .jimo-button:before {
@@ -33,19 +33,19 @@ url("jimo.svg?fe2e1a4160d0936be83264b20afb907c#jimo") format("svg");
 .jimo-calendar:before {
 	content: "\f105";
 }
-.jimo-check-circle-o:before {
+.jimo-checkbox:before {
 	content: "\f106";
 }
-.jimo-check-circle-outline:before {
+.jimo-check-circle:before {
 	content: "\f107";
 }
-.jimo-check-circle:before {
+.jimo-check-circle-o:before {
 	content: "\f108";
 }
-.jimo-check-info:before {
+.jimo-check-circle-outline:before {
 	content: "\f109";
 }
-.jimo-checkbox:before {
+.jimo-check-info:before {
 	content: "\f10a";
 }
 .jimo-clock:before {
@@ -57,219 +57,216 @@ url("jimo.svg?fe2e1a4160d0936be83264b20afb907c#jimo") format("svg");
 .jimo-container:before {
 	content: "\f10d";
 }
-.jimo-cross-embossed:before {
+.jimo-data-analysis:before {
 	content: "\f10e";
 }
-.jimo-data-analysis:before {
+.jimo-defect-analysis:before {
 	content: "\f10f";
 }
-.jimo-defect-analysis:before {
+.jimo-device:before {
 	content: "\f110";
 }
-.jimo-device:before {
+.jimo-download:before {
 	content: "\f111";
 }
-.jimo-download:before {
+.jimo-empty-data:before {
 	content: "\f112";
 }
-.jimo-ellipsis-horizontal:before {
+.jimo-envelope:before {
 	content: "\f113";
 }
-.jimo-empty-data:before {
+.jimo-envelope-open:before {
 	content: "\f114";
 }
-.jimo-envelop-open:before {
+.jimo-flow-control-analysis:before {
 	content: "\f115";
 }
-.jimo-envelop:before {
+.jimo-fork:before {
 	content: "\f116";
 }
-.jimo-file-excel_cf:before {
+.jimo-fullscreen:before {
 	content: "\f117";
 }
-.jimo-file-jpg_cf:before {
+.jimo-gauge:before {
 	content: "\f118";
 }
-.jimo-file-pdf_cf:before {
+.jimo-incoming-inspection:before {
 	content: "\f119";
 }
-.jimo-file-unkown_cf:before {
+.jimo-input:before {
 	content: "\f11a";
 }
-.jimo-file-word_cf:before {
+.jimo-inspection:before {
 	content: "\f11b";
 }
-.jimo-flow-control-analysis:before {
+.jimo-intelligent-report:before {
 	content: "\f11c";
 }
-.jimo-fork:before {
+.jimo-inventory:before {
 	content: "\f11d";
 }
-.jimo-fullscreen:before {
+.jimo-inventory-management:before {
 	content: "\f11e";
 }
-.jimo-gauge:before {
+.jimo-loading:before {
 	content: "\f11f";
 }
-.jimo-incoming-inspection:before {
+.jimo-measurement-data-analysis:before {
 	content: "\f120";
 }
-.jimo-info-embossed:before {
+.jimo-mechanical-analysis:before {
 	content: "\f121";
 }
-.jimo-input:before {
+.jimo-mobile:before {
 	content: "\f122";
 }
-.jimo-inspection:before {
+.jimo-number-input:before {
 	content: "\f123";
 }
-.jimo-intelligent-report:before {
+.jimo-packing:before {
 	content: "\f124";
 }
-.jimo-inventory-management:before {
+.jimo-plus:before {
 	content: "\f125";
 }
-.jimo-inventory:before {
+.jimo-ppap:before {
 	content: "\f126";
 }
-.jimo-ipc:before {
+.jimo-problem-analysis:before {
 	content: "\f127";
 }
-.jimo-loading:before {
+.jimo-process-events:before {
 	content: "\f128";
 }
-.jimo-measurement-data-analysis:before {
+.jimo-product:before {
 	content: "\f129";
 }
-.jimo-mechanical-analysis:before {
+.jimo-product-information-management:before {
 	content: "\f12a";
 }
-.jimo-mobile:before {
+.jimo-production-management:before {
 	content: "\f12b";
 }
-.jimo-number-input:before {
+.jimo-production-process:before {
 	content: "\f12c";
 }
-.jimo-packing:before {
+.jimo-product-traceability:before {
 	content: "\f12d";
 }
-.jimo-plus:before {
+.jimo-purchasing-management:before {
 	content: "\f12e";
 }
-.jimo-ppap:before {
+.jimo-quality-problem-tracking:before {
 	content: "\f12f";
 }
-.jimo-problem-analysis:before {
+.jimo-question-circle:before {
 	content: "\f130";
 }
-.jimo-process-events:before {
+.jimo-radio:before {
 	content: "\f131";
 }
-.jimo-product-information-management:before {
+.jimo-requirements:before {
 	content: "\f132";
 }
-.jimo-product-traceability:before {
+.jimo-retry:before {
 	content: "\f133";
 }
-.jimo-product:before {
+.jimo-sales-management:before {
 	content: "\f134";
 }
-.jimo-production-management:before {
+.jimo-select:before {
 	content: "\f135";
 }
-.jimo-production-process:before {
+.jimo-serial-number:before {
 	content: "\f136";
 }
-.jimo-purchasing-management:before {
+.jimo-shanghai-electric:before {
 	content: "\f137";
 }
-.jimo-quality-problem-tracking:before {
+.jimo-shipments-detection:before {
 	content: "\f138";
 }
-.jimo-question-circle-outline:before {
+.jimo-slim-cross:before {
 	content: "\f139";
 }
-.jimo-question-circle:before {
+.jimo-switch:before {
 	content: "\f13a";
 }
-.jimo-radio:before {
+.jimo-table-horizontal:before {
 	content: "\f13b";
 }
-.jimo-requirements:before {
+.jimo-table-vertical:before {
 	content: "\f13c";
 }
-.jimo-retry:before {
+.jimo-text-area:before {
 	content: "\f13d";
 }
-.jimo-sales-management:before {
+.jimo-tick:before {
 	content: "\f13e";
 }
-.jimo-scan:before {
+.jimo-tooling-management:before {
 	content: "\f13f";
 }
-.jimo-select:before {
+.jimo-upload:before {
 	content: "\f140";
 }
-.jimo-serial-number:before {
+.jimo-upload-box:before {
 	content: "\f141";
 }
-.jimo-shanghai-electric:before {
+.jimo-users:before {
 	content: "\f142";
 }
-.jimo-shipments-detection:before {
+.jimo-warehouse-in:before {
 	content: "\f143";
 }
-.jimo-slim-cross:before {
+.jimo-warehouse-out:before {
 	content: "\f144";
 }
-.jimo-switch:before {
+.jimo-warn-circle-outline:before {
 	content: "\f145";
 }
-.jimo-table-horizontal:before {
+.jimo-wechat:before {
 	content: "\f146";
 }
-.jimo-table-vertical:before {
+.jimo-wechat-circle:before {
 	content: "\f147";
 }
-.jimo-text-area:before {
+.jimo-zoom-in:before {
 	content: "\f148";
 }
-.jimo-tick-embossed:before {
+.jimo-zoom-out:before {
 	content: "\f149";
 }
-.jimo-tick:before {
+.jimo-ipc:before {
 	content: "\f14a";
 }
-.jimo-tooling-management:before {
+.jimo-scan:before {
 	content: "\f14b";
 }
-.jimo-upload:before {
+.jimo-tick-embossed:before {
 	content: "\f14c";
 }
-.jimo-uploadbox:before {
+.jimo-cross-embossed:before {
 	content: "\f14d";
 }
-.jimo-users:before {
+.jimo-info-embossed:before {
 	content: "\f14e";
 }
-.jimo-warehouse-in:before {
+.jimo-question-circle-outline:before {
 	content: "\f14f";
 }
-.jimo-warehouse-out:before {
+.jimo-ellipsis-horizontal:before {
 	content: "\f150";
 }
-.jimo-warn-circle-outline:before {
+.jimo-bg-warehouse-in:before {
 	content: "\f151";
 }
-.jimo-wechat-circle:before {
+.jimo-bg-warehouse-out:before {
 	content: "\f152";
 }
-.jimo-wechat:before {
+.jimo-bg-warehouse-transfer:before {
 	content: "\f153";
 }
-.jimo-zoom-in:before {
+.jimo-bg-warehouse-check:before {
 	content: "\f154";
-}
-.jimo-zoom-out:before {
-	content: "\f155";
 }

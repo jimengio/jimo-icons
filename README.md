@@ -33,8 +33,8 @@ yarn watch # launcher page server
 1. yarn
 2. svgo svgName.svg
 3. add svg file (in ./svg)
-4. yarn gen
-5. edit EJimoIcon (./src/jimo-icon.tsx)
+4. append icon names in `icons.coffee`
+5. yarn gen
 6. yarn watch
 
 ### License
