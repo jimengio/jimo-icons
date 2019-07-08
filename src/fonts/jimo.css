@@ -1,10 +1,10 @@
 @font-face {
 	font-family: "jimo";
-	src: url("jimo.eot?00627068b9a2f95dd6a11e105247337a?#iefix") format("embedded-opentype"),
-url("jimo.woff2?00627068b9a2f95dd6a11e105247337a") format("woff2"),
-url("jimo.woff?00627068b9a2f95dd6a11e105247337a") format("woff"),
-url("jimo.ttf?00627068b9a2f95dd6a11e105247337a") format("truetype"),
-url("jimo.svg?00627068b9a2f95dd6a11e105247337a#jimo") format("svg");
+	src: url("jimo.eot?669bbd466b5db906e5ed6cb51eff3b1e?#iefix") format("embedded-opentype"),
+url("jimo.woff2?669bbd466b5db906e5ed6cb51eff3b1e") format("woff2"),
+url("jimo.woff?669bbd466b5db906e5ed6cb51eff3b1e") format("woff"),
+url("jimo.ttf?669bbd466b5db906e5ed6cb51eff3b1e") format("truetype"),
+url("jimo.svg?669bbd466b5db906e5ed6cb51eff3b1e#jimo") format("svg");
 }
 
 .jimo {
@@ -275,4 +275,10 @@ url("jimo.svg?00627068b9a2f95dd6a11e105247337a#jimo") format("svg");
 }
 .jimo-switch-circle:before {
 	content: "\f156";
+}
+.jimo-trash:before {
+	content: "\f157";
+}
+.jimo-right-angle-circle:before {
+	content: "\f158";
 }

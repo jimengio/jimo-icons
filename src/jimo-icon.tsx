@@ -116,5 +116,7 @@ export enum EJimoIcon {
   bgWarehouseCheck = "bg-warehouse-check",
   worker = "worker",
   switchCircle = "switch-circle",
+  trash = "trash",
+  rightAngleCircle = "right-angle-circle",
   // icons list
 }
