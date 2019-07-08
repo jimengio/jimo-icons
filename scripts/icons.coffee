@@ -83,5 +83,6 @@ module.exports = [
   "bg-warehouse-out"
   "bg-warehouse-transfer"
   "bg-warehouse-check"
-  "worker"
+  "worker",
+  "switch-circle"
 ]
