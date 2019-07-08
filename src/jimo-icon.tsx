@@ -114,5 +114,6 @@ export enum EJimoIcon {
   bgWarehouseOut = "bg-warehouse-out",
   bgWarehouseTransfer = "bg-warehouse-transfer",
   bgWarehouseCheck = "bg-warehouse-check",
+  worker = "worker",
   // icons list
 }
