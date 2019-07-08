@@ -1,10 +1,10 @@
 @font-face {
 	font-family: "jimo";
-	src: url("jimo.eot?5653b52ea72e7cbcfa9a62fd286290c5?#iefix") format("embedded-opentype"),
-url("jimo.woff2?5653b52ea72e7cbcfa9a62fd286290c5") format("woff2"),
-url("jimo.woff?5653b52ea72e7cbcfa9a62fd286290c5") format("woff"),
-url("jimo.ttf?5653b52ea72e7cbcfa9a62fd286290c5") format("truetype"),
-url("jimo.svg?5653b52ea72e7cbcfa9a62fd286290c5#jimo") format("svg");
+	src: url("jimo.eot?1f7346cececf915abd5f3b108d297218?#iefix") format("embedded-opentype"),
+url("jimo.woff2?1f7346cececf915abd5f3b108d297218") format("woff2"),
+url("jimo.woff?1f7346cececf915abd5f3b108d297218") format("woff"),
+url("jimo.ttf?1f7346cececf915abd5f3b108d297218") format("truetype"),
+url("jimo.svg?1f7346cececf915abd5f3b108d297218#jimo") format("svg");
 }
 
 .jimo {
@@ -269,4 +269,7 @@ url("jimo.svg?5653b52ea72e7cbcfa9a62fd286290c5#jimo") format("svg");
 }
 .jimo-bg-warehouse-check:before {
 	content: "\f154";
+}
+.jimo-worker:before {
+	content: "\f155";
 }
