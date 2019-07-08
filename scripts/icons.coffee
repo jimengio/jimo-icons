@@ -85,4 +85,6 @@ module.exports = [
   "bg-warehouse-check"
   "worker",
   "switch-circle"
+  "trash",
+  "right-angle-circle"
 ]
