@@ -1,10 +1,10 @@
 @font-face {
 	font-family: "jimo";
-	src: url("jimo.eot?1f7346cececf915abd5f3b108d297218?#iefix") format("embedded-opentype"),
-url("jimo.woff2?1f7346cececf915abd5f3b108d297218") format("woff2"),
-url("jimo.woff?1f7346cececf915abd5f3b108d297218") format("woff"),
-url("jimo.ttf?1f7346cececf915abd5f3b108d297218") format("truetype"),
-url("jimo.svg?1f7346cececf915abd5f3b108d297218#jimo") format("svg");
+	src: url("jimo.eot?00627068b9a2f95dd6a11e105247337a?#iefix") format("embedded-opentype"),
+url("jimo.woff2?00627068b9a2f95dd6a11e105247337a") format("woff2"),
+url("jimo.woff?00627068b9a2f95dd6a11e105247337a") format("woff"),
+url("jimo.ttf?00627068b9a2f95dd6a11e105247337a") format("truetype"),
+url("jimo.svg?00627068b9a2f95dd6a11e105247337a#jimo") format("svg");
 }
 
 .jimo {
@@ -272,4 +272,7 @@ url("jimo.svg?1f7346cececf915abd5f3b108d297218#jimo") format("svg");
 }
 .jimo-worker:before {
 	content: "\f155";
+}
+.jimo-switch-circle:before {
+	content: "\f156";
 }
