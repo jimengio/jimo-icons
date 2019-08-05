@@ -1,1 +1,32 @@
-<svg width="68" height="68" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><path id="a" d="M0 0h684v607H0z"/></defs><g fill="none" fill-rule="evenodd"><path fill="#FFF" d="M-681-499H343v768H-681z"/><g transform="translate(-361 -399)"><mask id="b" fill="#fff"><use xlink:href="#a"/></mask><use fill="#FFF" fill-rule="nonzero" xlink:href="#a"/><g mask="url(#b)"><path fill="#EBF9FF" fill-rule="nonzero" d="M0 345h684v208H0z"/><path d="M395 467c-18.778 0-34-15.222-34-34s15.222-34 34-34 34 15.222 34 34-15.222 34-34 34zm-7.5-44.804v21.608a2 2 0 003.164 1.627l15.105-10.804a2 2 0 000-3.254l-15.105-10.804a2 2 0 00-3.164 1.627z" fill="#324A59" fill-rule="nonzero"/></g></g></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="68px" height="68px" viewBox="0 0 68 68" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>s</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 -5.68434189e-14 684 -5.68434189e-14 684 607 0 607"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="生产任务2.0" transform="translate(-681.000000, -499.000000)">
+            <rect fill="#FFFFFF" x="0" y="0" width="1024" height="768"></rect>
+            <g id="卡片1-+-卡片1-copy-+-卡片1-copy-2-Mask" transform="translate(320.000000, 100.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#FFFFFF" fill-rule="nonzero" xlink:href="#path-1"></use>
+                <g id="卡片1-copy" mask="url(#mask-2)">
+                    <g transform="translate(0.000000, 321.000000)">
+                        <polygon id="Rectangle" fill="#EBF9FF" fill-rule="nonzero" points="0 24 684 24 684 232 0 232"></polygon>
+                        <g id="Group-9" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(361.000000, 0.000000)">
+                            <g id="开始任务" transform="translate(0.000000, 4.000000)" fill="#324A59" fill-rule="nonzero">
+                                <g id="s" transform="translate(0.000000, 74.000000)">
+                                    <path d="M34,68 C15.2223185,68 0,52.7776815 0,34 C0,15.2223185 15.2223185,0 34,0 C52.7776815,0 68,15.2223185 68,34 C68,52.7776815 52.7776815,68 34,68 Z M26.5,23.1955743 L26.5,44.8044449 C26.5,45.9090144 27.3954305,46.8044449 28.5,46.8044449 C28.9172969,46.8044449 29.3241424,46.673917 29.6635506,46.431144 L44.7686198,35.6267412 C45.6670209,34.9841299 45.8743795,33.7348926 45.2317683,32.8364915 C45.1038872,32.6577076 44.9474079,32.5012279 44.7686244,32.3733463 L29.6635552,21.5688785 C28.765156,20.9262647 27.515918,21.1336198 26.8733042,22.0320191 C26.6305291,22.3714282 26.5,22.7782755 26.5,23.1955743 Z"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
