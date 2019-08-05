@@ -86,5 +86,15 @@ module.exports = [
   "worker",
   "switch-circle"
   "trash",
-  "right-angle-circle"
+  "right-angle-circle",
+  "text-file",
+  "list-file",
+  "more",
+  "tier",
+  "shift",
+  "play-light",
+  "complete-light",
+  "cancel",
+  "play-dark",
+  "complete-dark",
 ]
