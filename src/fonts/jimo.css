@@ -1,10 +1,10 @@
 @font-face {
 	font-family: "jimo";
-	src: url("jimo.eot?669bbd466b5db906e5ed6cb51eff3b1e?#iefix") format("embedded-opentype"),
-url("jimo.woff2?669bbd466b5db906e5ed6cb51eff3b1e") format("woff2"),
-url("jimo.woff?669bbd466b5db906e5ed6cb51eff3b1e") format("woff"),
-url("jimo.ttf?669bbd466b5db906e5ed6cb51eff3b1e") format("truetype"),
-url("jimo.svg?669bbd466b5db906e5ed6cb51eff3b1e#jimo") format("svg");
+	src: url("jimo.eot?05027a0e6a20d63382d52d1c8bdc9100?#iefix") format("embedded-opentype"),
+url("jimo.woff2?05027a0e6a20d63382d52d1c8bdc9100") format("woff2"),
+url("jimo.woff?05027a0e6a20d63382d52d1c8bdc9100") format("woff"),
+url("jimo.ttf?05027a0e6a20d63382d52d1c8bdc9100") format("truetype"),
+url("jimo.svg?05027a0e6a20d63382d52d1c8bdc9100#jimo") format("svg");
 }
 
 .jimo {
@@ -281,4 +281,34 @@ url("jimo.svg?669bbd466b5db906e5ed6cb51eff3b1e#jimo") format("svg");
 }
 .jimo-right-angle-circle:before {
 	content: "\f158";
+}
+.jimo-text-file:before {
+	content: "\f159";
+}
+.jimo-list-file:before {
+	content: "\f15a";
+}
+.jimo-more:before {
+	content: "\f15b";
+}
+.jimo-tier:before {
+	content: "\f15c";
+}
+.jimo-shift:before {
+	content: "\f15d";
+}
+.jimo-play-light:before {
+	content: "\f15e";
+}
+.jimo-complete-light:before {
+	content: "\f15f";
+}
+.jimo-cancel:before {
+	content: "\f160";
+}
+.jimo-play-dark:before {
+	content: "\f161";
+}
+.jimo-complete-dark:before {
+	content: "\f162";
 }
