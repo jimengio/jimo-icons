@@ -118,5 +118,15 @@ export enum EJimoIcon {
   switchCircle = "switch-circle",
   trash = "trash",
   rightAngleCircle = "right-angle-circle",
+  textFile = "text-file",
+  listFile = "list-file",
+  layers = "layers",
+  workingShift = "working-shift",
+  playCircle = "play-circle",
+  completeCircle = "complete-circle",
+  cancelCircle = "cancel-circle",
+  playEmbossed = "play-embossed",
+  completeEmbossed = "complete-embossed",
+  alarm = "alarm",
   // icons list
 }

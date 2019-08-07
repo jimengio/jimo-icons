@@ -86,5 +86,15 @@ module.exports = [
   "worker",
   "switch-circle"
   "trash",
-  "right-angle-circle"
+  "right-angle-circle",
+  "text-file",
+  "list-file",
+  "layers",
+  "working-shift",
+  "play-circle",
+  "complete-circle",
+  "cancel-circle",
+  "play-embossed",
+  "complete-embossed",
+  "alarm"
 ]
