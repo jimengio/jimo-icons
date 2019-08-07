@@ -91,10 +91,11 @@ module.exports = [
   "list-file",
   "more",
   "tier",
-  "shift",
-  "play-light",
-  "complete-light",
-  "cancel",
-  "play-dark",
-  "complete-dark",
+  "working-shift",
+  "play-circle",
+  "complete-circle",
+  "cancel-circle",
+  "play-embossed",
+  "complete-embossed",
+  "alarm"
 ]

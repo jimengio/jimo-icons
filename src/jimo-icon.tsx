@@ -122,11 +122,12 @@ export enum EJimoIcon {
   listFile = "list-file",
   more = "more",
   tier = "tier",
-  shift = "shift",
-  playLight = "play-light",
-  completeLight = "complete-light",
-  cancel = "cancel",
-  playDark = "play-dark",
-  completeDark = "complete-dark",
+  workingShift = "working-shift",
+  playCircle = "play-circle",
+  completeCircle = "complete-circle",
+  cancelCircle = "cancel-circle",
+  playEmbossed = "play-embossed",
+  completeEmbossed = "complete-embossed",
+  alarm = "alarm",
   // icons list
 }

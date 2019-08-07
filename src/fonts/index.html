@@ -27,11 +27,11 @@
 
 		@font-face {
 	font-family: "jimo";
-	src: url("jimo.eot?a93b1cecc89fccc3c40b0bef3295bc1b?#iefix") format("embedded-opentype"),
-url("jimo.woff2?a93b1cecc89fccc3c40b0bef3295bc1b") format("woff2"),
-url("jimo.woff?a93b1cecc89fccc3c40b0bef3295bc1b") format("woff"),
-url("jimo.ttf?a93b1cecc89fccc3c40b0bef3295bc1b") format("truetype"),
-url("jimo.svg?a93b1cecc89fccc3c40b0bef3295bc1b#jimo") format("svg");
+	src: url("jimo.eot?a48f83505f7a12d75d72a9ef5df6627a?#iefix") format("embedded-opentype"),
+url("jimo.woff2?a48f83505f7a12d75d72a9ef5df6627a") format("woff2"),
+url("jimo.woff?a48f83505f7a12d75d72a9ef5df6627a") format("woff"),
+url("jimo.ttf?a48f83505f7a12d75d72a9ef5df6627a") format("truetype"),
+url("jimo.svg?a48f83505f7a12d75d72a9ef5df6627a#jimo") format("svg");
 }
 
 .jimo {
@@ -321,23 +321,26 @@ url("jimo.svg?a93b1cecc89fccc3c40b0bef3295bc1b#jimo") format("svg");
 .jimo-tier:before {
 	content: "\f15c";
 }
-.jimo-shift:before {
+.jimo-working-shift:before {
 	content: "\f15d";
 }
-.jimo-play-light:before {
+.jimo-play-circle:before {
 	content: "\f15e";
 }
-.jimo-complete-light:before {
+.jimo-complete-circle:before {
 	content: "\f15f";
 }
-.jimo-cancel:before {
+.jimo-cancel-circle:before {
 	content: "\f160";
 }
-.jimo-play-dark:before {
+.jimo-play-embossed:before {
 	content: "\f161";
 }
-.jimo-complete-dark:before {
+.jimo-complete-embossed:before {
 	content: "\f162";
+}
+.jimo-alarm:before {
+	content: "\f163";
 }
 
 	</style>
@@ -898,39 +901,45 @@ url("jimo.svg?a93b1cecc89fccc3c40b0bef3295bc1b#jimo") format("svg");
 	</div>
 	<div class="preview">
 		<span class="preview__icon">
-			<span class="jimo jimo-shift"></span>
+			<span class="jimo jimo-working-shift"></span>
 		</span>
-		<span>shift</span>
+		<span>working-shift</span>
 	</div>
 	<div class="preview">
 		<span class="preview__icon">
-			<span class="jimo jimo-play-light"></span>
+			<span class="jimo jimo-play-circle"></span>
 		</span>
-		<span>play-light</span>
+		<span>play-circle</span>
 	</div>
 	<div class="preview">
 		<span class="preview__icon">
-			<span class="jimo jimo-complete-light"></span>
+			<span class="jimo jimo-complete-circle"></span>
 		</span>
-		<span>complete-light</span>
+		<span>complete-circle</span>
 	</div>
 	<div class="preview">
 		<span class="preview__icon">
-			<span class="jimo jimo-cancel"></span>
+			<span class="jimo jimo-cancel-circle"></span>
 		</span>
-		<span>cancel</span>
+		<span>cancel-circle</span>
 	</div>
 	<div class="preview">
 		<span class="preview__icon">
-			<span class="jimo jimo-play-dark"></span>
+			<span class="jimo jimo-play-embossed"></span>
 		</span>
-		<span>play-dark</span>
+		<span>play-embossed</span>
 	</div>
 	<div class="preview">
 		<span class="preview__icon">
-			<span class="jimo jimo-complete-dark"></span>
+			<span class="jimo jimo-complete-embossed"></span>
 		</span>
-		<span>complete-dark</span>
+		<span>complete-embossed</span>
+	</div>
+	<div class="preview">
+		<span class="preview__icon">
+			<span class="jimo jimo-alarm"></span>
+		</span>
+		<span>alarm</span>
 	</div>
 </body>
 </html>
