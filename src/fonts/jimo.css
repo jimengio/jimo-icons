@@ -1,10 +1,10 @@
 @font-face {
 	font-family: "jimo";
-	src: url("jimo.eot?90a794ed10e522f6eca23cbb0002114c?#iefix") format("embedded-opentype"),
-url("jimo.woff2?90a794ed10e522f6eca23cbb0002114c") format("woff2"),
-url("jimo.woff?90a794ed10e522f6eca23cbb0002114c") format("woff"),
-url("jimo.ttf?90a794ed10e522f6eca23cbb0002114c") format("truetype"),
-url("jimo.svg?90a794ed10e522f6eca23cbb0002114c#jimo") format("svg");
+	src: url("jimo.eot?188fae42ffa83586f5248805748951e5?#iefix") format("embedded-opentype"),
+url("jimo.woff2?188fae42ffa83586f5248805748951e5") format("woff2"),
+url("jimo.woff?188fae42ffa83586f5248805748951e5") format("woff"),
+url("jimo.ttf?188fae42ffa83586f5248805748951e5") format("truetype"),
+url("jimo.svg?188fae42ffa83586f5248805748951e5#jimo") format("svg");
 }
 
 .jimo {
