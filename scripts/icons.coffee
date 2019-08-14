@@ -101,6 +101,6 @@ module.exports = [
   "complete-embossed",
   "alarm"
   "sort"
-  "sidebar-fold"
-  "sidebar-unfold"
+  "menu-push-left"
+  "menu-push-right"
 ]
