@@ -101,4 +101,6 @@ module.exports = [
   "complete-embossed",
   "alarm"
   "sort"
+  "menu-push-left"
+  "menu-push-right"
 ]

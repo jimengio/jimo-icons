@@ -1,10 +1,10 @@
 @font-face {
 	font-family: "jimo";
-	src: url("jimo.eot?0b7fb48d7ef3b0d43b2f59fbe35d6ba2?#iefix") format("embedded-opentype"),
-url("jimo.woff2?0b7fb48d7ef3b0d43b2f59fbe35d6ba2") format("woff2"),
-url("jimo.woff?0b7fb48d7ef3b0d43b2f59fbe35d6ba2") format("woff"),
-url("jimo.ttf?0b7fb48d7ef3b0d43b2f59fbe35d6ba2") format("truetype"),
-url("jimo.svg?0b7fb48d7ef3b0d43b2f59fbe35d6ba2#jimo") format("svg");
+	src: url("jimo.eot?db2786aee6b9cab3975eead5874cfce2?#iefix") format("embedded-opentype"),
+url("jimo.woff2?db2786aee6b9cab3975eead5874cfce2") format("woff2"),
+url("jimo.woff?db2786aee6b9cab3975eead5874cfce2") format("woff"),
+url("jimo.ttf?db2786aee6b9cab3975eead5874cfce2") format("truetype"),
+url("jimo.svg?db2786aee6b9cab3975eead5874cfce2#jimo") format("svg");
 }
 
 .jimo {
@@ -323,4 +323,10 @@ url("jimo.svg?0b7fb48d7ef3b0d43b2f59fbe35d6ba2#jimo") format("svg");
 }
 .jimo-sort:before {
 	content: "\f166";
+}
+.jimo-menu-push-left:before {
+	content: "\f167";
+}
+.jimo-menu-push-right:before {
+	content: "\f168";
 }

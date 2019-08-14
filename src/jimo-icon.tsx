@@ -132,5 +132,7 @@ export enum EJimoIcon {
   completeEmbossed = "complete-embossed",
   alarm = "alarm",
   sort = "sort",
+  menuPushLeft = "menu-push-left",
+  menuPushRight = "menu-push-right",
   // icons list
 }
