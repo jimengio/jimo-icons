@@ -132,5 +132,7 @@ export enum EJimoIcon {
   completeEmbossed = "complete-embossed",
   alarm = "alarm",
   sort = "sort",
+  sidebarFold = "sidebar-fold",
+  sidebarUnfold = "sidebar-unfold",
   // icons list
 }

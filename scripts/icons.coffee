@@ -101,4 +101,6 @@ module.exports = [
   "complete-embossed",
   "alarm"
   "sort"
+  "sidebar-fold"
+  "sidebar-unfold"
 ]

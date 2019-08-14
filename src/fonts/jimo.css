@@ -1,10 +1,10 @@
 @font-face {
 	font-family: "jimo";
-	src: url("jimo.eot?0b7fb48d7ef3b0d43b2f59fbe35d6ba2?#iefix") format("embedded-opentype"),
-url("jimo.woff2?0b7fb48d7ef3b0d43b2f59fbe35d6ba2") format("woff2"),
-url("jimo.woff?0b7fb48d7ef3b0d43b2f59fbe35d6ba2") format("woff"),
-url("jimo.ttf?0b7fb48d7ef3b0d43b2f59fbe35d6ba2") format("truetype"),
-url("jimo.svg?0b7fb48d7ef3b0d43b2f59fbe35d6ba2#jimo") format("svg");
+	src: url("jimo.eot?3ed0687e4a57b7af2ed150890c58dfe8?#iefix") format("embedded-opentype"),
+url("jimo.woff2?3ed0687e4a57b7af2ed150890c58dfe8") format("woff2"),
+url("jimo.woff?3ed0687e4a57b7af2ed150890c58dfe8") format("woff"),
+url("jimo.ttf?3ed0687e4a57b7af2ed150890c58dfe8") format("truetype"),
+url("jimo.svg?3ed0687e4a57b7af2ed150890c58dfe8#jimo") format("svg");
 }
 
 .jimo {
@@ -323,4 +323,10 @@ url("jimo.svg?0b7fb48d7ef3b0d43b2f59fbe35d6ba2#jimo") format("svg");
 }
 .jimo-sort:before {
 	content: "\f166";
+}
+.jimo-sidebar-fold:before {
+	content: "\f167";
+}
+.jimo-sidebar-unfold:before {
+	content: "\f168";
 }
