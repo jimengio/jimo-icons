@@ -100,4 +100,5 @@ module.exports = [
   "play-embossed",
   "complete-embossed",
   "alarm"
+  "sort"
 ]

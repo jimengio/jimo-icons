@@ -131,5 +131,6 @@ export enum EJimoIcon {
   playEmbossed = "play-embossed",
   completeEmbossed = "complete-embossed",
   alarm = "alarm",
+  sort = "sort",
   // icons list
 }

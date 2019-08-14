@@ -1,10 +1,10 @@
 @font-face {
 	font-family: "jimo";
-	src: url("jimo.eot?188fae42ffa83586f5248805748951e5?#iefix") format("embedded-opentype"),
-url("jimo.woff2?188fae42ffa83586f5248805748951e5") format("woff2"),
-url("jimo.woff?188fae42ffa83586f5248805748951e5") format("woff"),
-url("jimo.ttf?188fae42ffa83586f5248805748951e5") format("truetype"),
-url("jimo.svg?188fae42ffa83586f5248805748951e5#jimo") format("svg");
+	src: url("jimo.eot?0b7fb48d7ef3b0d43b2f59fbe35d6ba2?#iefix") format("embedded-opentype"),
+url("jimo.woff2?0b7fb48d7ef3b0d43b2f59fbe35d6ba2") format("woff2"),
+url("jimo.woff?0b7fb48d7ef3b0d43b2f59fbe35d6ba2") format("woff"),
+url("jimo.ttf?0b7fb48d7ef3b0d43b2f59fbe35d6ba2") format("truetype"),
+url("jimo.svg?0b7fb48d7ef3b0d43b2f59fbe35d6ba2#jimo") format("svg");
 }
 
 .jimo {
@@ -320,4 +320,7 @@ url("jimo.svg?188fae42ffa83586f5248805748951e5#jimo") format("svg");
 }
 .jimo-alarm:before {
 	content: "\f165";
+}
+.jimo-sort:before {
+	content: "\f166";
 }
