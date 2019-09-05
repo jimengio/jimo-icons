@@ -36,7 +36,7 @@
     "awesome-typescript-loader": "^5.2.1",
     "coffeescript": "^2.4.1",
     "css-loader": "^3.2.0",
-    "emotion": "^10.0.9",
+    "emotion": "^10.0.17",
     "file-loader": "^4.2.0",
     "font-carrier": "^0.1.0",
     "html-webpack-plugin": "^3.2.0",
