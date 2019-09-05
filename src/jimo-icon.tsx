@@ -12,27 +12,30 @@ export interface IconProps {
   name: EJimoIcon;
   className?: string;
   style?: CSSProperties;
-  onClick?: (event) => void;
-  onMouseEnter?: (event) => void;
+  onClick?: (event: React.MouseEvent) => void;
+  onMouseEnter?: (event: React.MouseEvent) => void;
 }
 
-export default class JimoIcon extends Component<IconProps, any> {
-  render() {
-    const { name, className, style, onClick } = this.props;
-    let iconPrefix = "jimo-icon";
-    let classNames = iconPrefix;
+let iconPrefix = "jimo-icon";
 
-    classNames += ` ${iconPrefix}-${name}`;
+let JimoIcon: React.FC<IconProps> = (props) => {
+  let classNames = iconPrefix;
 
-    classNames = className ? cx(classNames, className) : classNames;
+  classNames = props.className ? cx(classNames, props.className) : classNames;
 
-    return (
-      <i style={style} className={classNames} aria-hidden="true" onMouseEnter={this.props.onMouseEnter} onClick={onClick}>
-        {fontsDict[this.props.name] || `NONE:${this.props.name}`}
-      </i>
-    );
-  }
-}
+  return (
+    <i
+      style={props.style}
+      className={classNames}
+      aria-hidden="true"
+      onMouseEnter={props.onMouseEnter}
+      onClick={props.onClick}
+      dangerouslySetInnerHTML={{ __html: `&#${fontsDict[props.name]}` || `NONE:${props.name}` }}
+    ></i>
+  );
+};
+
+export default JimoIcon;
 
 export enum EJimoIcon {
   // icons list

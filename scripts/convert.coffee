@@ -56,7 +56,7 @@ icons.forEach (icon) ->
   initialFontValue += 1
   char = String.fromCharCode initialFontValue
   fonts.setSvg(char, fs.readFileSync("./svg/#{icon}.svg").toString())
-  dict[icon] = char
+  dict[icon] = initialFontValue
 
 fonts.output
   path: './src/fonts/jimo'
