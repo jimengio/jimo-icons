@@ -1,6 +1,6 @@
 {
   "name": "@jimengio/jimo-icons",
-  "version": "0.2.0-a2",
+  "version": "0.2.0-a4",
   "description": "Self-made icons",
   "main": "lib/jimo-icon.js",
   "types": "./lib/jimo-icon.d.ts",
@@ -8,14 +8,13 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "optimize": "cd svg/ && ../node_modules/.bin/svgo --config=../svgo.json *",
     "gen": "coffee scripts/convert.coffee",
-    "compile": "tsc -d --project tsconfig-compile.json --outDir lib/",
-    "cp": "rm -rf lib/* && cp -r src/fonts lib/",
+    "compile": "rm -rfv lib && tsc -d --project tsconfig-compile.json --outDir lib/ && cp -r src/fonts lib/",
     "watch": "webpack-dev-server",
     "build": "webpack --config=webpack.release.js",
     "release": "yarn build",
     "upload": "rsync -avr --progress dist/* fe.jimu.io:repo/jimengio/jimo-icons",
     "postinstall": "rm -rfv node_modules/@types/react-*/node_modules/@types/react",
-    "prepare": "yarn gen && yarn cp && yarn compile"
+    "prepare": "yarn gen && yarn compile"
   },
   "repository": {
     "type": "git",
