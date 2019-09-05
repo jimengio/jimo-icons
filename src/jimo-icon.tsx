@@ -4,6 +4,8 @@ import { cx } from "emotion";
 
 import "./fonts/jimo.css";
 
+import fontsDict from "./fonts";
+
 export type IconType = "lg" | "2x" | "3x" | "4x" | "5x";
 
 export interface IconProps {
@@ -17,14 +19,18 @@ export interface IconProps {
 export default class JimoIcon extends Component<IconProps, any> {
   render() {
     const { name, className, style, onClick } = this.props;
-    let iconPrefix = "jimo";
+    let iconPrefix = "jimo-icon";
     let classNames = iconPrefix;
 
     classNames += ` ${iconPrefix}-${name}`;
 
     classNames = className ? cx(classNames, className) : classNames;
 
-    return <i style={style} className={classNames} aria-hidden="true" onMouseEnter={this.props.onMouseEnter} onClick={onClick} />;
+    return (
+      <i style={style} className={classNames} aria-hidden="true" onMouseEnter={this.props.onMouseEnter} onClick={onClick}>
+        {fontsDict[this.props.name] || `NONE:${this.props.name}`}
+      </i>
+    );
   }
 }
 

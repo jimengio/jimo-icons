@@ -1,11 +1,12 @@
 {
   "name": "@jimengio/jimo-icons",
-  "version": "0.1.26",
+  "version": "0.2.0-a1",
   "description": "Self-made icons",
   "main": "lib/jimo-icon.js",
   "types": "./lib/jimo-icon.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "optimize": "cd svg/ && ../node_modules/.bin/svgo --config=../svgo.json *",
     "gen": "coffee scripts/convert.coffee",
     "compile": "tsc -d --project tsconfig-compile.json --outDir lib/",
     "cp": "rm -rf lib/* && cp -r src/fonts lib/",
@@ -37,6 +38,7 @@
     "css-loader": "^3.2.0",
     "emotion": "^10.0.9",
     "file-loader": "^4.2.0",
+    "font-carrier": "^0.1.0",
     "html-webpack-plugin": "^3.2.0",
     "http-server": "^0.11.1",
     "lodash": "^4.17.11",
@@ -46,7 +48,6 @@
     "svgo": "^1.2.1",
     "typescript": "^3.4.2",
     "url-loader": "^2.1.0",
-    "webfonts-generator": "sunflowerdeath/webfonts-generator",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.3.0",
     "webpack-dev-server": "^3.3.0"
