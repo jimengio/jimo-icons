@@ -103,4 +103,5 @@ module.exports = [
   "sort"
   "menu-push-left"
   "menu-push-right"
+  "salary"
 ]

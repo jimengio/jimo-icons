@@ -143,5 +143,6 @@ export enum EJimoIcon {
   sort = "sort",
   menuPushLeft = "menu-push-left",
   menuPushRight = "menu-push-right",
+  salary = "salary",
   // icons list
 }
