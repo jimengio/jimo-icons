@@ -103,5 +103,6 @@ export default {
   "alarm": 4197,
   "sort": 4198,
   "menu-push-left": 4199,
-  "menu-push-right": 4200
+  "menu-push-right": 4200,
+  "salary": 4201
 }
