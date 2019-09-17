@@ -16,7 +16,6 @@ if added.length > 0
 if lostOnes.length > 0
   console.warn "Icons not found in svg/ folder:", lostOnes
   process.exit 1
- 
 console.log "ok, SVG files matche icons list"
 
 # generate types
@@ -44,7 +43,7 @@ console.log 'ok, types are written to tsx file'
 
 # generate fonts
 
-initialFontValue = 0x1000
+initialFontValue = 0xe000
 
 String.fromCharCode(initialFontValue)
 
