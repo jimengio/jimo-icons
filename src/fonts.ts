@@ -97,5 +97,8 @@ export default {
   "sort": 57439,
   "menu-push-left": 57440,
   "menu-push-right": 57441,
-  "salary": 57442
+  "salary": 57442,
+  "cancel-square": 57443,
+  "check-square": 57444,
+  "edit-square": 57445
 }

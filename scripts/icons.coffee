@@ -97,4 +97,7 @@ module.exports = [
   "menu-push-left"
   "menu-push-right"
   "salary"
+  "cancel-square"
+  "check-square"
+  "edit-square"
 ]
