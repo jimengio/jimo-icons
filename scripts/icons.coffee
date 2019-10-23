@@ -100,4 +100,11 @@ module.exports = [
   "cancel-square"
   "check-square"
   "edit-square"
+  "button"
+  "container"
+  "input"
+  "number-input"
+  "radio"
+  "switch"
+  "text-area"
 ]

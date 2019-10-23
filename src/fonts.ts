@@ -100,5 +100,12 @@ export default {
   "salary": 57442,
   "cancel-square": 57443,
   "check-square": 57444,
-  "edit-square": 57445
+  "edit-square": 57445,
+  "button": 57446,
+  "container": 57447,
+  "input": 57448,
+  "number-input": 57449,
+  "radio": 57450,
+  "switch": 57451,
+  "text-area": 57452
 }
