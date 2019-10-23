@@ -140,5 +140,12 @@ export enum EJimoIcon {
   cancelSquare = "cancel-square",
   checkSquare = "check-square",
   editSquare = "edit-square",
+  button = "button",
+  container = "container",
+  input = "input",
+  numberInput = "number-input",
+  radio = "radio",
+  switch = "switch",
+  textArea = "text-area",
   // icons list
 }
