@@ -107,5 +107,11 @@ export default {
   "number-input": 57449,
   "radio": 57450,
   "switch": 57451,
-  "text-area": 57452
+  "text-area": 57452,
+  "layers-filled": 57453,
+  "more-menu": 57454,
+  "organization": 57455,
+  "permissions": 57456,
+  "search": 57457,
+  "user": 57458
 }

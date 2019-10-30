@@ -6,15 +6,12 @@ const TerserPlugin = require("terser-webpack-plugin");
 module.exports = {
   mode: "production",
   entry: {
-    vendor: [
-      "react",
-      "react-dom",
-    ],
-    main: ["./example/home.tsx"]
+    vendor: ["react", "react-dom"],
+    main: ["./example/home.tsx"],
   },
   output: {
     filename: "[name].[chunkhash:8].js",
-    path: path.join(__dirname, "/dist")
+    path: path.join(__dirname, "/dist"),
   },
   devtool: "none",
   optimization: {
@@ -33,45 +30,55 @@ module.exports = {
         },
         vendors: {
           test: /[\\/]node_modules[\\/]/,
-          priority: -10
-        }
-      }
+          priority: -10,
+        },
+      },
     },
   },
   module: {
     rules: [
       {
         test: /\.css$/,
-        loaders: ["style-loader", "css-loader"]
+        loaders: ["style-loader", "css-loader"],
       },
       {
         test: /\.tsx?$/,
         loader: "awesome-typescript-loader",
-        exclude: /node_modules/
+        exclude: /node_modules/,
       },
       {
         test: /\.(eot|svg|ttf|jpg|png|woff2?|mp3)(\?.+)?$/,
         loader: "url-loader",
         query: {
           limit: 100,
-          name: "assets/[hash:8].[ext]"
-        }
-      }
-    ]
+          name: "assets/[hash:8].[ext]",
+        },
+      },
+    ],
   },
   resolve: {
-    extensions: [".tsx", ".ts", ".js"]
+    extensions: [".tsx", ".ts", ".js"],
+  },
+  stats: {
+    all: false,
+    colors: true,
+    errors: true,
+    errorDetails: true,
+    performance: true,
+    reasons: true,
+    timings: true,
+    warnings: true,
   },
   plugins: [
     new webpack.DefinePlugin({
       "process.env": {
-        NODE_ENV: JSON.stringify("production")
-      }
+        NODE_ENV: JSON.stringify("production"),
+      },
     }),
     new TerserPlugin(),
     new HtmlWebpackPlugin({
       filename: "index.html",
-      template: "template.ejs"
-    })
-  ]
+      template: "template.ejs",
+    }),
+  ],
 };
