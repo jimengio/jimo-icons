@@ -107,4 +107,10 @@ module.exports = [
   "radio"
   "switch"
   "text-area"
+  'layers-filled',
+  'more-menu',
+  'organization',
+  'permissions',
+  'search',
+  'user'
 ]

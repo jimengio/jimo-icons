@@ -7,7 +7,7 @@ module.exports = {
   entry: ["./example/home.tsx"],
   output: {
     filename: "index.js",
-    path: path.join(__dirname, "/dist")
+    path: path.join(__dirname, "/dist"),
   },
   devtool: "cheap-source-map",
   module: {
@@ -16,26 +16,26 @@ module.exports = {
         test: /\.css$/,
         use: [
           "style-loader", // creates style nodes from JS strings
-          "css-loader" // translates CSS into CommonJS
-        ]
+          "css-loader", // translates CSS into CommonJS
+        ],
       },
       {
         test: /\.tsx?$/,
         loader: "awesome-typescript-loader",
-        exclude: /node_modules/
+        exclude: /node_modules/,
       },
       {
         test: /\.(eot|svg|ttf|jpg|png|woff2?|mp3)(\?.+)?$/,
         loader: "url-loader",
         query: {
           limit: 100,
-          name: "assets/[hash:8].[ext]"
-        }
-      }
-    ]
+          name: "assets/[hash:8].[ext]",
+        },
+      },
+    ],
   },
   resolve: {
-    extensions: [".tsx", ".ts", ".js"]
+    extensions: [".tsx", ".ts", ".js"],
   },
   devServer: {
     contentBase: __dirname,
@@ -43,13 +43,23 @@ module.exports = {
     compress: true,
     clientLogLevel: "info",
     disableHostCheck: true,
-    host: "0.0.0.0"
+    host: "0.0.0.0",
+    stats: {
+      all: false,
+      colors: true,
+      errors: true,
+      errorDetails: true,
+      performance: true,
+      reasons: true,
+      timings: true,
+      warnings: true,
+    },
   },
   plugins: [
     new webpack.NamedModulesPlugin(),
     new HtmlWebpackPlugin({
       filename: "index.html",
-      template: "template.ejs"
-    })
-  ]
+      template: "template.ejs",
+    }),
+  ],
 };

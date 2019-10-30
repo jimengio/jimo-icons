@@ -147,5 +147,11 @@ export enum EJimoIcon {
   radio = "radio",
   switch = "switch",
   textArea = "text-area",
+  layersFilled = "layers-filled",
+  moreMenu = "more-menu",
+  organization = "organization",
+  permissions = "permissions",
+  search = "search",
+  user = "user",
   // icons list
 }
