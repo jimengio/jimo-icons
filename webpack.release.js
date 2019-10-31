@@ -1,7 +1,10 @@
 var path = require("path");
+let fs = require("fs");
 var webpack = require("webpack");
 var HtmlWebpackPlugin = require("html-webpack-plugin");
 const TerserPlugin = require("terser-webpack-plugin");
+
+let trackingCode = fs.readFileSync(path.join(__dirname, "./scripts/ga.html"), "utf8");
 
 module.exports = {
   mode: "production",
@@ -79,6 +82,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       filename: "index.html",
       template: "template.ejs",
+      trackingCode,
     }),
   ],
 };
