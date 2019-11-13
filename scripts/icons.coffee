@@ -114,4 +114,6 @@ module.exports = [
   'search',
   'user',
   "rebind",
+  "circle-start",
+  "circle-report",
 ]

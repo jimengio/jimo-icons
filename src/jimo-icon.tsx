@@ -154,5 +154,7 @@ export enum EJimoIcon {
   search = "search",
   user = "user",
   rebind = "rebind",
+  circleStart = "circle-start",
+  circleReport = "circle-report",
   // icons list
 }
