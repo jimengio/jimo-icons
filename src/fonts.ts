@@ -114,5 +114,7 @@ export default {
   "permissions": 57456,
   "search": 57457,
   "user": 57458,
-  "rebind": 57459
+  "rebind": 57459,
+  "circle-start": 57460,
+  "circle-report": 57461
 }
