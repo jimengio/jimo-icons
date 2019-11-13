@@ -112,5 +112,6 @@ module.exports = [
   'organization',
   'permissions',
   'search',
-  'user'
+  'user',
+  "rebind",
 ]
