@@ -153,5 +153,6 @@ export enum EJimoIcon {
   permissions = "permissions",
   search = "search",
   user = "user",
+  rebind = "rebind",
   // icons list
 }

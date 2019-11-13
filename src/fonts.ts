@@ -113,5 +113,6 @@ export default {
   "organization": 57455,
   "permissions": 57456,
   "search": 57457,
-  "user": 57458
+  "user": 57458,
+  "rebind": 57459
 }
