@@ -5,7 +5,7 @@ module.exports = [
   "calendar"
   "checkbox"
   "check-circle"
-  "check-circle-o"
+  "batch"
   "check-circle-outline"
   "check-info"
   "clock"
@@ -18,14 +18,14 @@ module.exports = [
   "envelope"
   "envelope-open"
   "flow-control-analysis"
-  "fork"
+  "eye"
   "fullscreen"
   "gauge"
   "incoming-inspection"
   "inspection"
   "intelligent-report"
   "inventory"
-  "inventory-management"
+  "rebind"
   "left-angle-circle"
   "loading"
   "measurement-data-analysis"
@@ -79,19 +79,19 @@ module.exports = [
   "bg-warehouse-out"
   "bg-warehouse-transfer"
   "bg-warehouse-check"
-  "worker",
+  "worker"
   "switch-circle"
-  "trash",
-  "right-angle-circle",
-  "text-file",
-  "list-file",
-  "layers",
-  "working-shift",
-  "play-circle",
-  "complete-circle",
-  "cancel-circle",
-  "play-embossed",
-  "complete-embossed",
+  "trash"
+  "right-angle-circle"
+  "text-file"
+  "list-file"
+  "layers"
+  "working-shift"
+  "play-circle"
+  "complete-circle"
+  "cancel-circle"
+  "play-embossed"
+  "warn-embossed"
   "alarm"
   "sort"
   "menu-push-left"
@@ -107,13 +107,12 @@ module.exports = [
   "radio"
   "switch"
   "text-area"
-  'layers-filled',
-  'more-menu',
-  'organization',
-  'permissions',
-  'search',
-  'user',
-  "rebind",
+  'layers-filled'
+  'more-menu'
+  'organization'
+  'permissions'
+  'search'
+  'user'
   "circle-start",
   "circle-report",
 ]
