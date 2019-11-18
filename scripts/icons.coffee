@@ -4,7 +4,7 @@ module.exports = [
   "bell-outline"
   "calendar"
   "checkbox"
-  "check-circle"
+  'permissions'
   "batch"
   "check-circle-outline"
   "check-info"
@@ -61,8 +61,8 @@ module.exports = [
   "upload"
   "upload-box"
   "users"
-  "warehouse-in"
-  "warehouse-out"
+  'organization'
+  'more-menu'
   "warn-circle-outline"
   "wechat"
   "wechat-circle"
@@ -75,10 +75,10 @@ module.exports = [
   "info-embossed"
   "question-circle-outline"
   "ellipsis-horizontal"
-  "bg-warehouse-in"
-  "bg-warehouse-out"
-  "bg-warehouse-transfer"
-  "bg-warehouse-check"
+  "warehouse-in"
+  "warehouse-out"
+  "warehouse-transfer"
+  "warehouse-check"
   "worker"
   "switch-circle"
   "trash"
@@ -87,8 +87,8 @@ module.exports = [
   "list-file"
   "layers"
   "working-shift"
-  "play-circle"
-  "complete-circle"
+  'user'
+  'search'
   "cancel-circle"
   "play-embossed"
   "warn-embossed"
@@ -108,11 +108,5 @@ module.exports = [
   "switch"
   "text-area"
   'layers-filled'
-  'more-menu'
-  'organization'
-  'permissions'
-  'search'
-  'user'
-  "circle-start",
   "circle-report",
 ]
