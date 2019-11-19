@@ -4,8 +4,8 @@ module.exports = [
   "bell-outline"
   "calendar"
   "checkbox"
-  "check-circle"
-  "check-circle-o"
+  'permissions'
+  "batch"
   "check-circle-outline"
   "check-info"
   "clock"
@@ -18,14 +18,14 @@ module.exports = [
   "envelope"
   "envelope-open"
   "flow-control-analysis"
-  "fork"
+  "eye"
   "fullscreen"
   "gauge"
   "incoming-inspection"
   "inspection"
   "intelligent-report"
   "inventory"
-  "inventory-management"
+  "rebind"
   "left-angle-circle"
   "loading"
   "measurement-data-analysis"
@@ -61,8 +61,8 @@ module.exports = [
   "upload"
   "upload-box"
   "users"
-  "warehouse-in"
-  "warehouse-out"
+  'organization'
+  'more-menu'
   "warn-circle-outline"
   "wechat"
   "wechat-circle"
@@ -75,23 +75,23 @@ module.exports = [
   "info-embossed"
   "question-circle-outline"
   "ellipsis-horizontal"
-  "bg-warehouse-in"
-  "bg-warehouse-out"
-  "bg-warehouse-transfer"
-  "bg-warehouse-check"
-  "worker",
+  "warehouse-in"
+  "warehouse-out"
+  "warehouse-transfer"
+  "warehouse-check"
+  "worker"
   "switch-circle"
-  "trash",
-  "right-angle-circle",
-  "text-file",
-  "list-file",
-  "layers",
-  "working-shift",
-  "play-circle",
-  "complete-circle",
-  "cancel-circle",
-  "play-embossed",
-  "complete-embossed",
+  "trash"
+  "right-angle-circle"
+  "text-file"
+  "list-file"
+  "layers"
+  "working-shift"
+  'user'
+  'search'
+  "cancel-circle"
+  "play-embossed"
+  "warn-embossed"
   "alarm"
   "sort"
   "menu-push-left"
@@ -107,13 +107,6 @@ module.exports = [
   "radio"
   "switch"
   "text-area"
-  'layers-filled',
-  'more-menu',
-  'organization',
-  'permissions',
-  'search',
-  'user',
-  "rebind",
-  "circle-start",
+  'layers-filled'
   "circle-report",
 ]

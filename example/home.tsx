@@ -6,11 +6,11 @@ import JimoIcon, { EJimoIcon } from "../src/jimo-icon";
 
 class Container extends React.Component<any, any> {
   render() {
-    let names = Object.keys(EJimoIcon).map(key => EJimoIcon[key]);
+    let names = Object.keys(EJimoIcon).map((key) => EJimoIcon[key]);
 
     return (
       <div className={styleContainer}>
-        {names.map(name => {
+        {names.map((name) => {
           return (
             <div key={name} className={styleExample}>
               <JimoIcon className={styleIcon} name={name} />
@@ -52,6 +52,7 @@ const styleIcon = css`
   vertical-align: middle;
   display: inline-block;
   font-size: 24px;
+  box-shadow: 0 0 1px hsla(0, 0%, 0%, 0.4);
 `;
 
 const styleName = css`
