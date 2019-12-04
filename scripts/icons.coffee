@@ -108,5 +108,10 @@ module.exports = [
   "switch"
   "text-area"
   'layers-filled'
-  "circle-report",
+  "circle-report"
+  'bell-filled'
+  'profile-config'
+  'profile-menu'
+  'sharing'
+  'star-boxed'
 ]

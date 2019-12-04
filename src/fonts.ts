@@ -109,5 +109,10 @@ export default {
   "switch": 57451,
   "text-area": 57452,
   "layers-filled": 57453,
-  "circle-report": 57454
+  "circle-report": 57454,
+  "bell-filled": 57455,
+  "profile-config": 57456,
+  "profile-menu": 57457,
+  "sharing": 57458,
+  "star-boxed": 57459
 }

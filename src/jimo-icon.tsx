@@ -149,5 +149,10 @@ export enum EJimoIcon {
   textArea = "text-area",
   layersFilled = "layers-filled",
   circleReport = "circle-report",
+  bellFilled = "bell-filled",
+  profileConfig = "profile-config",
+  profileMenu = "profile-menu",
+  sharing = "sharing",
+  starBoxed = "star-boxed",
   // icons list
 }
