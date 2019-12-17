@@ -114,5 +114,7 @@ export default {
   "profile-config": 57456,
   "profile-menu": 57457,
   "sharing": 57458,
-  "star-boxed": 57459
+  "star-boxed": 57459,
+  "loudspeaker-embossed": 57460,
+  "task-embossed": 57461
 }

@@ -154,5 +154,7 @@ export enum EJimoIcon {
   profileMenu = "profile-menu",
   sharing = "sharing",
   starBoxed = "star-boxed",
+  loudspeakerEmbossed = "loudspeaker-embossed",
+  taskEmbossed = "task-embossed",
   // icons list
 }
