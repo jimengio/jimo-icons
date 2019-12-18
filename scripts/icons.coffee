@@ -114,4 +114,6 @@ module.exports = [
   'profile-menu'
   'sharing'
   'star-boxed'
+  'loudspeaker-embossed'
+  'task-embossed'
 ]
