@@ -116,4 +116,7 @@ module.exports = [
   'star-boxed'
   'loudspeaker-embossed'
   'task-embossed'
+  'delete-circle'
+  'edit-circle'
+  'location'
 ]

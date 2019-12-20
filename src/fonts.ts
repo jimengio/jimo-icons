@@ -116,5 +116,8 @@ export default {
   "sharing": 57458,
   "star-boxed": 57459,
   "loudspeaker-embossed": 57460,
-  "task-embossed": 57461
+  "task-embossed": 57461,
+  "delete-circle": 57462,
+  "edit-circle": 57463,
+  "location": 57464
 }
