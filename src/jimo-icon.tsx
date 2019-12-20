@@ -156,5 +156,8 @@ export enum EJimoIcon {
   starBoxed = "star-boxed",
   loudspeakerEmbossed = "loudspeaker-embossed",
   taskEmbossed = "task-embossed",
+  deleteCircle = "delete-circle",
+  editCircle = "edit-circle",
+  location = "location",
   // icons list
 }
