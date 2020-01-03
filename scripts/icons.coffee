@@ -120,6 +120,6 @@ module.exports = [
   'edit-circle'
   'location'
   'delete'
-  'star-fill'
+  'star'
   'star-line'
 ]

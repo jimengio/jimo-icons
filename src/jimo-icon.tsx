@@ -160,7 +160,7 @@ export enum EJimoIcon {
   editCircle = "edit-circle",
   location = "location",
   delete = "delete",
-  starFill = "star-fill",
+  star = "star",
   starLine = "star-line",
   // icons list
 }
