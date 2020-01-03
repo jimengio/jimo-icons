@@ -119,4 +119,7 @@ module.exports = [
   'delete-circle'
   'edit-circle'
   'location'
+  'delete'
+  'star-filled'
+  'star'
 ]

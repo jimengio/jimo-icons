@@ -119,5 +119,8 @@ export default {
   "task-embossed": 57461,
   "delete-circle": 57462,
   "edit-circle": 57463,
-  "location": 57464
+  "location": 57464,
+  "delete": 57465,
+  "star-filled": 57466,
+  "star": 57467
 }
