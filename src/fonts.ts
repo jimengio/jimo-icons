@@ -121,6 +121,6 @@ export default {
   "edit-circle": 57463,
   "location": 57464,
   "delete": 57465,
-  "star": 57466,
-  "star-line": 57467
+  "star-filled": 57466,
+  "star": 57467
 }
