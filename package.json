@@ -13,8 +13,7 @@
     "build": "webpack --config=webpack.release.js",
     "release": "yarn build",
     "upload": "rsync -avr --progress dist/* fe.jimu.io:repo/jimengio/jimo-icons",
-    "postinstall": "rm -rfv node_modules/@types/react-*/node_modules/@types/react",
-    "prepare": "yarn gen && yarn compile"
+    "postinstall": "rm -rfv node_modules/@types/react-*/node_modules/@types/react"
   },
   "repository": {
     "type": "git",
