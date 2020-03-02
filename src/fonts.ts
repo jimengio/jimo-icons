@@ -122,5 +122,12 @@ export default {
   "location": 57464,
   "delete": 57465,
   "star-filled": 57466,
-  "star": 57467
+  "star": 57467,
+  "customer-circle": 57468,
+  "file-rule": 57469,
+  "folder-circle": 57470,
+  "history-circle": 57471,
+  "material-information": 57472,
+  "process": 57473,
+  "product-bom": 57474
 }

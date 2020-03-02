@@ -122,4 +122,11 @@ module.exports = [
   'delete'
   'star-filled'
   'star'
+  'customer-circle'
+  'file-rule'
+  'folder-circle'
+  'history-circle'
+  'material-information'
+  'process'
+  'product-bom'
 ]

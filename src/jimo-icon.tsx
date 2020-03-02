@@ -162,5 +162,12 @@ export enum EJimoIcon {
   delete = "delete",
   starFilled = "star-filled",
   star = "star",
+  customerCircle = "customer-circle",
+  fileRule = "file-rule",
+  folderCircle = "folder-circle",
+  historyCircle = "history-circle",
+  materialInformation = "material-information",
+  process = "process",
+  productBom = "product-bom",
   // icons list
 }
