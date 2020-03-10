@@ -129,5 +129,7 @@ export default {
   "history": 57471,
   "material-information": 57472,
   "process": 57473,
-  "product-bom": 57474
+  "product-bom": 57474,
+  "left-square-outline": 57475,
+  "right-square-outline": 57476
 }

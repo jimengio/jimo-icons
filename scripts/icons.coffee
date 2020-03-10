@@ -129,4 +129,6 @@ module.exports = [
   'material-information'
   'process'
   'product-bom'
+  'left-square-outline'
+  'right-square-outline'
 ]
