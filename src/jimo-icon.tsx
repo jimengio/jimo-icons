@@ -171,5 +171,8 @@ export enum EJimoIcon {
   productBom = "product-bom",
   leftSquareOutline = "left-square-outline",
   rightSquareOutline = "right-square-outline",
+  deviceList = "device-list",
+  deviceCategory = "device-category",
+  edgeDevice = "edge-device",
   // icons list
 }

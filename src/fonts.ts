@@ -131,5 +131,8 @@ export default {
   "process": 57473,
   "product-bom": 57474,
   "left-square-outline": 57475,
-  "right-square-outline": 57476
+  "right-square-outline": 57476,
+  "device-list": 57477,
+  "device-category": 57478,
+  "edge-device": 57479
 }
