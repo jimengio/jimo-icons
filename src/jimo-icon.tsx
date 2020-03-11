@@ -169,5 +169,7 @@ export enum EJimoIcon {
   materialInformation = "material-information",
   process = "process",
   productBom = "product-bom",
+  leftSquareOutline = "left-square-outline",
+  rightSquareOutline = "right-square-outline",
   // icons list
 }
