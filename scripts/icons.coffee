@@ -131,4 +131,7 @@ module.exports = [
   'product-bom'
   'left-square-outline'
   'right-square-outline'
+  "device-list"
+  "device-category"
+  "edge-device"
 ]
