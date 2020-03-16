@@ -134,5 +134,6 @@ export default {
   "right-square-outline": 57476,
   "device-list": 57477,
   "device-category": 57478,
-  "edge-device": 57479
+  "edge-device": 57479,
+  "report": 57480
 }
