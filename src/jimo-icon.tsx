@@ -174,5 +174,6 @@ export enum EJimoIcon {
   deviceList = "device-list",
   deviceCategory = "device-category",
   edgeDevice = "edge-device",
+  report = "report",
   // icons list
 }

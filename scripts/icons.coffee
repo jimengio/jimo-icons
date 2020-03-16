@@ -134,4 +134,5 @@ module.exports = [
   "device-list"
   "device-category"
   "edge-device"
+  "report"
 ]
