@@ -135,5 +135,6 @@ export default {
   "device-list": 57477,
   "device-category": 57478,
   "edge-device": 57479,
-  "report": 57480
+  "report": 57480,
+  "bookmark-outline": 57481
 }

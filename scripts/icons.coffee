@@ -135,4 +135,5 @@ module.exports = [
   "device-category"
   "edge-device"
   "report"
+  "bookmark-outline"
 ]
