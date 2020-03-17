@@ -175,5 +175,6 @@ export enum EJimoIcon {
   deviceCategory = "device-category",
   edgeDevice = "edge-device",
   report = "report",
+  bookmarkOutline = "bookmark-outline",
   // icons list
 }
