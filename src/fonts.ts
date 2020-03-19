@@ -136,5 +136,9 @@ export default {
   "device-category": 57478,
   "edge-device": 57479,
   "report": 57480,
-  "bookmark-outline": 57481
+  "bookmark-outline": 57481,
+  "cube": 57482,
+  "task-check-embossed": 57483,
+  "progress-outline": 57484,
+  "warning": 57485
 }

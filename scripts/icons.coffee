@@ -136,4 +136,8 @@ module.exports = [
   "edge-device"
   "report"
   "bookmark-outline"
+  "cube"
+  "task-check-embossed"
+  "progress-outline"
+  "warning"
 ]
