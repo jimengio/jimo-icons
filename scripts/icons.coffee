@@ -140,4 +140,5 @@ module.exports = [
   "task-check-embossed"
   "progress-outline"
   "warning"
+  "angle-down-outline"
 ]
