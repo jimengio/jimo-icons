@@ -176,5 +176,9 @@ export enum EJimoIcon {
   edgeDevice = "edge-device",
   report = "report",
   bookmarkOutline = "bookmark-outline",
+  cube = "cube",
+  taskCheckEmbossed = "task-check-embossed",
+  progressOutline = "progress-outline",
+  warning = "warning",
   // icons list
 }
