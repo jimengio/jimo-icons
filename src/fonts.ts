@@ -140,5 +140,6 @@ export default {
   "cube": 57482,
   "task-check-embossed": 57483,
   "progress-outline": 57484,
-  "warning": 57485
+  "warning": 57485,
+  "angle-down-outline": 57486
 }

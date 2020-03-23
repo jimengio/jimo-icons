@@ -180,5 +180,6 @@ export enum EJimoIcon {
   taskCheckEmbossed = "task-check-embossed",
   progressOutline = "progress-outline",
   warning = "warning",
+  angleDownOutline = "angle-down-outline",
   // icons list
 }
