@@ -6,7 +6,9 @@ path = require 'path'
 # check icons
 
 icons = require './icons'
-currentIcons = fs.readdirSync(path.join(__dirname, '../svg/')).map((x) -> x.replace(".svg", ""))
+currentIcons = fs.readdirSync(path.join(__dirname, '../svg/'))
+  .filter (x) -> x.endsWith('.svg')
+  .map (x) -> x.replace(".svg", "")
 
 added = difference currentIcons, icons
 lostOnes = difference icons, currentIcons
@@ -22,7 +24,8 @@ console.log "ok, SVG files matche icons list"
 
 srcFile = path.join __dirname, '../src/jimo-icon.tsx'
 sourceCode = fs.readFileSync srcFile, 'utf8'
-separator = '\n  // icons list\n'
+newlineChar = require('os').EOL
+separator = "#{newlineChar}  // icons list#{newlineChar}"
 chunks = sourceCode.split(separator)
 
 getName = (x) ->
