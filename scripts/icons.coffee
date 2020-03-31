@@ -141,4 +141,8 @@ module.exports = [
   "progress-outline"
   "warning"
   "angle-down-outline"
+  "document-list"
+  "document-category"
+  "data-restore"
+  "role-config"
 ]

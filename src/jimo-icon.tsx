@@ -181,5 +181,9 @@ export enum EJimoIcon {
   progressOutline = "progress-outline",
   warning = "warning",
   angleDownOutline = "angle-down-outline",
+  documentList = "document-list",
+  documentCategory = "document-category",
+  dataRestore = "data-restore",
+  roleConfig = "role-config",
   // icons list
 }

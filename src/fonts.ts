@@ -141,5 +141,9 @@ export default {
   "task-check-embossed": 57483,
   "progress-outline": 57484,
   "warning": 57485,
-  "angle-down-outline": 57486
+  "angle-down-outline": 57486,
+  "document-list": 57487,
+  "document-category": 57488,
+  "data-restore": 57489,
+  "role-config": 57490
 }
