@@ -145,4 +145,5 @@ module.exports = [
   "document-category"
   "data-restore"
   "role-config"
+  "search-module"
 ]

@@ -185,5 +185,6 @@ export enum EJimoIcon {
   documentCategory = "document-category",
   dataRestore = "data-restore",
   roleConfig = "role-config",
+  searchModule = "search-module",
   // icons list
 }
