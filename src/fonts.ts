@@ -145,5 +145,6 @@ export default {
   "document-list": 57487,
   "document-category": 57488,
   "data-restore": 57489,
-  "role-config": 57490
+  "role-config": 57490,
+  "search-module": 57491
 }
