@@ -4,7 +4,7 @@ var webpack = require("webpack");
 var HtmlWebpackPlugin = require("html-webpack-plugin");
 const TerserPlugin = require("terser-webpack-plugin");
 
-let trackingCode = fs.readFileSync(path.join(__dirname, "./scripts/ga.html"), "utf8");
+let trackingCode = "";
 
 module.exports = {
   mode: "production",
