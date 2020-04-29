@@ -146,5 +146,7 @@ export default {
   "document-category": 57488,
   "data-restore": 57489,
   "role-config": 57490,
-  "search-module": 57491
+  "search-module": 57491,
+  "start": 57492,
+  "rebind-code": 57493
 }

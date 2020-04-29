@@ -186,5 +186,7 @@ export enum EJimoIcon {
   dataRestore = "data-restore",
   roleConfig = "role-config",
   searchModule = "search-module",
+  start = "start",
+  rebindCode = "rebind-code",
   // icons list
 }

@@ -146,4 +146,6 @@ module.exports = [
   "data-restore"
   "role-config"
   "search-module"
+  "start"
+  "rebind-code"
 ]
