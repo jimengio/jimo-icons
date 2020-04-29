@@ -1,6 +1,6 @@
 {
   "name": "@jimengio/jimo-icons",
-  "version": "0.3.10-a1",
+  "version": "0.3.10",
   "description": "Self-made icons",
   "main": "lib/jimo-icon.js",
   "types": "./lib/jimo-icon.d.ts",
