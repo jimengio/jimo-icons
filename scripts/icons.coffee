@@ -148,4 +148,8 @@ module.exports = [
   "search-module"
   "start"
   "rebind-code"
+  "pdf-file"
+  "image-file"
+  "excel-file"
+  "word-file"
 ]

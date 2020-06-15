@@ -188,5 +188,9 @@ export enum EJimoIcon {
   searchModule = "search-module",
   start = "start",
   rebindCode = "rebind-code",
+  pdfFile = "pdf-file",
+  imageFile = "image-file",
+  excelFile = "excel-file",
+  wordFile = "word-file",
   // icons list
 }

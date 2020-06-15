@@ -148,5 +148,9 @@ export default {
   "role-config": 57490,
   "search-module": 57491,
   "start": 57492,
-  "rebind-code": 57493
+  "rebind-code": 57493,
+  "pdf-file": 57494,
+  "image-file": 57495,
+  "excel-file": 57496,
+  "word-file": 57497
 }
