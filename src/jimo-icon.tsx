@@ -192,5 +192,6 @@ export enum EJimoIcon {
   imageFile = "image-file",
   excelFile = "excel-file",
   wordFile = "word-file",
+  fileStatus = "file-status",
   // icons list
 }
