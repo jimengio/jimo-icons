@@ -152,5 +152,6 @@ export default {
   "pdf-file": 57494,
   "image-file": 57495,
   "excel-file": 57496,
-  "word-file": 57497
+  "word-file": 57497,
+  "file-status": 57498
 }

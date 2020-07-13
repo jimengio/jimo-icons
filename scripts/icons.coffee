@@ -152,4 +152,5 @@ module.exports = [
   "image-file"
   "excel-file"
   "word-file"
+  "file-status"
 ]
