@@ -153,4 +153,5 @@ module.exports = [
   "excel-file"
   "word-file"
   "file-status"
+  "clock-embossed"
 ]

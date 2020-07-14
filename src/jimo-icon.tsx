@@ -193,5 +193,6 @@ export enum EJimoIcon {
   excelFile = "excel-file",
   wordFile = "word-file",
   fileStatus = "file-status",
+  clockEmbossed = "clock-embossed",
   // icons list
 }
