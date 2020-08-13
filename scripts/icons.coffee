@@ -154,4 +154,5 @@ module.exports = [
   "word-file"
   "file-status"
   "clock-embossed"
+  "keyboard"
 ]

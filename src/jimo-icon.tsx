@@ -194,5 +194,6 @@ export enum EJimoIcon {
   wordFile = "word-file",
   fileStatus = "file-status",
   clockEmbossed = "clock-embossed",
+  keyboard = "keyboard",
   // icons list
 }
