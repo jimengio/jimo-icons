@@ -154,5 +154,6 @@ export default {
   "excel-file": 57496,
   "word-file": 57497,
   "file-status": 57498,
-  "clock-embossed": 57499
+  "clock-embossed": 57499,
+  "keyboard": 57500
 }
