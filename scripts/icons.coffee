@@ -155,4 +155,10 @@ module.exports = [
   "file-status"
   "clock-embossed"
   "keyboard"
+  "order-number"
+  "sampling-method"
+  "linear-worker"
+  "details"
+  "warehouse"
+  "overall-decision"
 ]
