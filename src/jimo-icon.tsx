@@ -195,5 +195,11 @@ export enum EJimoIcon {
   fileStatus = "file-status",
   clockEmbossed = "clock-embossed",
   keyboard = "keyboard",
+  orderNumber = "order-number",
+  samplingMethod = "sampling-method",
+  linearWorker = "linear-worker",
+  details = "details",
+  warehouse = "warehouse",
+  overallDecision = "overall-decision",
   // icons list
 }

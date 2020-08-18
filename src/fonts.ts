@@ -155,5 +155,11 @@ export default {
   "word-file": 57497,
   "file-status": 57498,
   "clock-embossed": 57499,
-  "keyboard": 57500
+  "keyboard": 57500,
+  "order-number": 57501,
+  "sampling-method": 57502,
+  "linear-worker": 57503,
+  "details": 57504,
+  "warehouse": 57505,
+  "overall-decision": 57506
 }
