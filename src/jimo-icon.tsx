@@ -201,5 +201,8 @@ export enum EJimoIcon {
   details = "details",
   warehouse = "warehouse",
   overallDecision = "overall-decision",
+  userFilled = "user-filled",
+  enterprise = "enterprise",
+  locked = "locked",
   // icons list
 }
