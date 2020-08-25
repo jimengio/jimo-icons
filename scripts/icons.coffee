@@ -161,4 +161,7 @@ module.exports = [
   "details"
   "warehouse"
   "overall-decision"
+  "user-filled"
+  "enterprise"
+  "locked"
 ]

@@ -161,5 +161,8 @@ export default {
   "linear-worker": 57503,
   "details": 57504,
   "warehouse": 57505,
-  "overall-decision": 57506
+  "overall-decision": 57506,
+  "user-filled": 57507,
+  "enterprise": 57508,
+  "locked": 57509
 }
