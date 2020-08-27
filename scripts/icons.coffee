@@ -165,4 +165,5 @@ module.exports = [
   "enterprise"
   "locked"
   "worker-outline"
+  "advanced-search"
 ]

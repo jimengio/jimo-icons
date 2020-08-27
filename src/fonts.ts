@@ -165,5 +165,6 @@ export default {
   "user-filled": 57507,
   "enterprise": 57508,
   "locked": 57509,
-  "worker-outline": 57510
+  "worker-outline": 57510,
+  "advanced-search": 57511
 }
