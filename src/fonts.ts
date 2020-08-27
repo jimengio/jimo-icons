@@ -164,5 +164,6 @@ export default {
   "overall-decision": 57506,
   "user-filled": 57507,
   "enterprise": 57508,
-  "locked": 57509
+  "locked": 57509,
+  "worker-outline": 57510
 }

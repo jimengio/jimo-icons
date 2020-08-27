@@ -164,4 +164,5 @@ module.exports = [
   "user-filled"
   "enterprise"
   "locked"
+  "worker-outline"
 ]
