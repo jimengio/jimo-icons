@@ -206,5 +206,6 @@ export enum EJimoIcon {
   locked = "locked",
   workerOutline = "worker-outline",
   advancedSearch = "advanced-search",
+  print = "print",
   // icons list
 }
