@@ -166,4 +166,5 @@ module.exports = [
   "locked"
   "worker-outline"
   "advanced-search"
+  "print"
 ]
