@@ -167,5 +167,8 @@ export default {
   "locked": 57509,
   "worker-outline": 57510,
   "advanced-search": 57511,
-  "print": 57512
+  "print": 57512,
+  "order-synergy": 57513,
+  "client-relation": 57514,
+  "label": 57515
 }
