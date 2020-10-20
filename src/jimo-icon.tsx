@@ -207,5 +207,8 @@ export enum EJimoIcon {
   workerOutline = "worker-outline",
   advancedSearch = "advanced-search",
   print = "print",
+  orderSynergy = "order-synergy",
+  clientRelation = "client-relation",
+  label = "label",
   // icons list
 }

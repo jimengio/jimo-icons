@@ -167,4 +167,7 @@ module.exports = [
   "worker-outline"
   "advanced-search"
   "print"
+  "order-synergy"
+  "client-relation"
+  "label"
 ]
