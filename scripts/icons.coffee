@@ -170,4 +170,5 @@ module.exports = [
   "order-synergy"
   "client-relation"
   "label"
+  "board-monitor"
 ]
