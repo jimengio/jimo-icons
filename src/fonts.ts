@@ -170,5 +170,6 @@ export default {
   "print": 57512,
   "order-synergy": 57513,
   "client-relation": 57514,
-  "label": 57515
+  "label": 57515,
+  "board-monitor": 57516
 }

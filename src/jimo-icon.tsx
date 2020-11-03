@@ -210,5 +210,6 @@ export enum EJimoIcon {
   orderSynergy = "order-synergy",
   clientRelation = "client-relation",
   label = "label",
+  boardMonitor = "board-monitor",
   // icons list
 }
