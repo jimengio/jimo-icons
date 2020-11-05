@@ -211,5 +211,6 @@ export enum EJimoIcon {
   clientRelation = "client-relation",
   label = "label",
   boardMonitor = "board-monitor",
+  reportManagement = "report-management",
   // icons list
 }

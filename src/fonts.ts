@@ -171,5 +171,6 @@ export default {
   "order-synergy": 57513,
   "client-relation": 57514,
   "label": 57515,
-  "board-monitor": 57516
+  "board-monitor": 57516,
+  "report-management": 57517
 }

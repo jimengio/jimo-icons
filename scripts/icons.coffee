@@ -171,4 +171,5 @@ module.exports = [
   "client-relation"
   "label"
   "board-monitor"
+  "report-management"
 ]
