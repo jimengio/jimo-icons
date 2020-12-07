@@ -172,5 +172,6 @@ export default {
   "client-relation": 57514,
   "label": 57515,
   "board-monitor": 57516,
-  "report-management": 57517
+  "report-management": 57517,
+  "logistics": 57518
 }
