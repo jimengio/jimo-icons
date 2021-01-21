@@ -173,4 +173,5 @@ module.exports = [
   "board-monitor"
   "report-management"
   "logistics"
+  "remark"
 ]
