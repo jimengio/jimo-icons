@@ -173,5 +173,6 @@ export default {
   "label": 57515,
   "board-monitor": 57516,
   "report-management": 57517,
-  "logistics": 57518
+  "logistics": 57518,
+  "remark": 57519
 }

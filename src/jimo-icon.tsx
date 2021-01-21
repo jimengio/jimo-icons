@@ -213,5 +213,6 @@ export enum EJimoIcon {
   boardMonitor = "board-monitor",
   reportManagement = "report-management",
   logistics = "logistics",
+  remark = "remark",
   // icons list
 }
