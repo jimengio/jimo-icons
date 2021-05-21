@@ -174,4 +174,10 @@ module.exports = [
   "report-management"
   "logistics"
   "remark"
+  "part"
+  "production"
+  "supplier"
+  "tag"
+  "team"
+  "trace-code"
 ]
