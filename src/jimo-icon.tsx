@@ -214,5 +214,11 @@ export enum EJimoIcon {
   reportManagement = "report-management",
   logistics = "logistics",
   remark = "remark",
+  part = "part",
+  production = "production",
+  supplier = "supplier",
+  tag = "tag",
+  team = "team",
+  traceCode = "trace-code",
   // icons list
 }

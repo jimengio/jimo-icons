@@ -174,5 +174,11 @@ export default {
   "board-monitor": 57516,
   "report-management": 57517,
   "logistics": 57518,
-  "remark": 57519
+  "remark": 57519,
+  "part": 57520,
+  "production": 57521,
+  "supplier": 57522,
+  "tag": 57523,
+  "team": 57524,
+  "trace-code": 57525
 }
