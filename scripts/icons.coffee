@@ -180,4 +180,8 @@ module.exports = [
   "tag"
   "team"
   "trace-code"
+  "authority"
+  "creation-user-embossed"
+  "pie-chart"
+  "piecework-calculation"
 ]
