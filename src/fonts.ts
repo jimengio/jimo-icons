@@ -180,5 +180,9 @@ export default {
   "supplier": 57522,
   "tag": 57523,
   "team": 57524,
-  "trace-code": 57525
+  "trace-code": 57525,
+  "authority": 57526,
+  "creation-user-embossed": 57527,
+  "pie-chart": 57528,
+  "piecework-calculation": 57529
 }

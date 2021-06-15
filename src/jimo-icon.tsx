@@ -220,5 +220,9 @@ export enum EJimoIcon {
   tag = "tag",
   team = "team",
   traceCode = "trace-code",
+  authority = "authority",
+  creationUserEmbossed = "creation-user-embossed",
+  pieChart = "pie-chart",
+  pieceworkCalculation = "piecework-calculation",
   // icons list
 }
