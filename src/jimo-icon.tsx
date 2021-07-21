@@ -224,5 +224,10 @@ export enum EJimoIcon {
   creationUserEmbossed = "creation-user-embossed",
   pieChart = "pie-chart",
   pieceworkCalculation = "piecework-calculation",
+  checkFilled = "check-filled",
+  clockFilled = "clock-filled",
+  pieOutline = "pie-outline",
+  userAddFilled = "user-add-filled",
+  userSettingOutline = "user-setting-outline",
   // icons list
 }

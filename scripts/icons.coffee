@@ -184,4 +184,9 @@ module.exports = [
   "creation-user-embossed"
   "pie-chart"
   "piecework-calculation"
+  "check-filled"
+  "clock-filled"
+  "pie-outline"
+  "user-add-filled"
+  "user-setting-outline"
 ]

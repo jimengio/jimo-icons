@@ -184,5 +184,10 @@ export default {
   "authority": 57526,
   "creation-user-embossed": 57527,
   "pie-chart": 57528,
-  "piecework-calculation": 57529
+  "piecework-calculation": 57529,
+  "check-filled": 57530,
+  "clock-filled": 57531,
+  "pie-outline": 57532,
+  "user-add-filled": 57533,
+  "user-setting-outline": 57534
 }
