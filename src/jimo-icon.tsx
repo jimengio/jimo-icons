@@ -229,5 +229,6 @@ export enum EJimoIcon {
   pieOutline = "pie-outline",
   userAddFilled = "user-add-filled",
   userSettingOutline = "user-setting-outline",
+  employeesOutline = "employees-outline",
   // icons list
 }

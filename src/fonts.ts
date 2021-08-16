@@ -189,5 +189,6 @@ export default {
   "clock-filled": 57531,
   "pie-outline": 57532,
   "user-add-filled": 57533,
-  "user-setting-outline": 57534
+  "user-setting-outline": 57534,
+  "employees-outline": 57535
 }
