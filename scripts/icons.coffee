@@ -189,4 +189,5 @@ module.exports = [
   "pie-outline"
   "user-add-filled"
   "user-setting-outline"
+  "employees-outline"
 ]
