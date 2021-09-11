@@ -234,5 +234,8 @@ export enum EJimoIcon {
   calculationFilled = "calculation-filled",
   filePlusOutline = "file-plus-outline",
   fileRefreshOutline = "file-refresh-outline",
+  authorityFilled = "authority-filled",
+  employeeFilled = "employee-filled",
+  settingFilled = "setting-filled",
   // icons list
 }

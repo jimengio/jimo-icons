@@ -194,5 +194,8 @@ export default {
   "salary-edit-filled": 57536,
   "calculation-filled": 57537,
   "file-plus-outline": 57538,
-  "file-refresh-outline": 57539
+  "file-refresh-outline": 57539,
+  "authority-filled": 57540,
+  "employee-filled": 57541,
+  "setting-filled": 57542
 }
