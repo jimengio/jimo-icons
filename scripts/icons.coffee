@@ -190,4 +190,8 @@ module.exports = [
   "user-add-filled"
   "user-setting-outline"
   "employees-outline"
+  "salary-edit-filled"
+  "calculation-filled"
+  "file-plus-outline"
+  "file-refresh-outline"
 ]
