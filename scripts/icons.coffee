@@ -194,4 +194,7 @@ module.exports = [
   "calculation-filled"
   "file-plus-outline"
   "file-refresh-outline"
+  "authority-filled"
+  "employee-filled"
+  "setting-filled"
 ]
