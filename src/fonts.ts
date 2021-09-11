@@ -190,5 +190,9 @@ export default {
   "pie-outline": 57532,
   "user-add-filled": 57533,
   "user-setting-outline": 57534,
-  "employees-outline": 57535
+  "employees-outline": 57535,
+  "salary-edit-filled": 57536,
+  "calculation-filled": 57537,
+  "file-plus-outline": 57538,
+  "file-refresh-outline": 57539
 }
