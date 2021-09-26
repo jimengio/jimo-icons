@@ -237,5 +237,6 @@ export enum EJimoIcon {
   authorityFilled = "authority-filled",
   employeeFilled = "employee-filled",
   settingFilled = "setting-filled",
+  pieceworkReport = "piecework-report",
   // icons list
 }

@@ -197,5 +197,6 @@ export default {
   "file-refresh-outline": 57539,
   "authority-filled": 57540,
   "employee-filled": 57541,
-  "setting-filled": 57542
+  "setting-filled": 57542,
+  "piecework-report": 57543
 }
