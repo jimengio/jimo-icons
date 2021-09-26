@@ -197,4 +197,5 @@ module.exports = [
   "authority-filled"
   "employee-filled"
   "setting-filled"
+  "piecework-report"
 ]
