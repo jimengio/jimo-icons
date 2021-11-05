@@ -198,4 +198,5 @@ module.exports = [
   "employee-filled"
   "setting-filled"
   "piecework-report"
+  "value-added-outline"
 ]

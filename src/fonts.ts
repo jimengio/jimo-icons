@@ -198,5 +198,6 @@ export default {
   "authority-filled": 57540,
   "employee-filled": 57541,
   "setting-filled": 57542,
-  "piecework-report": 57543
+  "piecework-report": 57543,
+  "value-added-outline": 57544
 }
