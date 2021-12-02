@@ -175,6 +175,7 @@ module.exports = [
   "logistics"
   "remark"
   "part"
+  "partners"
   "production"
   "supplier"
   "tag"

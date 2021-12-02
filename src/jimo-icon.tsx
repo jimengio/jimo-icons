@@ -215,6 +215,7 @@ export enum EJimoIcon {
   logistics = "logistics",
   remark = "remark",
   part = "part",
+  partners = "partners",
   production = "production",
   supplier = "supplier",
   tag = "tag",
