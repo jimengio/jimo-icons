@@ -50,8 +50,5 @@
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
   },
-  "dependencies": {
-    "file": "^0.2.2",
-    "svg": "^0.1.0"
-  }
+  "dependencies": {}
 }
