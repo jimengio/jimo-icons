@@ -240,5 +240,6 @@ export enum EJimoIcon {
   settingFilled = "setting-filled",
   pieceworkReport = "piecework-report",
   valueAddedOutline = "value-added-outline",
+  permissionKey = "permission-key",
   // icons list
 }

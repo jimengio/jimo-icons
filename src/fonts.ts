@@ -200,5 +200,6 @@ export default {
   "employee-filled": 57542,
   "setting-filled": 57543,
   "piecework-report": 57544,
-  "value-added-outline": 57545
+  "value-added-outline": 57545,
+  "permission-key": 57546
 }

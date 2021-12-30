@@ -200,4 +200,5 @@ module.exports = [
   "setting-filled"
   "piecework-report"
   "value-added-outline"
+  "permission-key"
 ]

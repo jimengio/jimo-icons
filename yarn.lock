@@ -1998,6 +1998,11 @@ file-uri-to-path@1.0.0:
   resolved "https://registry.npm.taobao.org/file-uri-to-path/download/file-uri-to-path-1.0.0.tgz#553a7b8446ff6f684359c445f1e37a05dacc33dd"
   integrity sha1-VTp7hEb/b2hDWcRF8eN6BdrMM90=
 
+file@^0.2.2:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/file/-/file-0.2.2.tgz#c3dfd8f8cf3535ae455c2b423c2e52635d76b4d3"
+  integrity sha1-w9/Y+M81Na5FXCtCPC5SY112tNM=
+
 fill-range@^4.0.0:
   version "4.0.0"
   resolved "https://registry.npm.taobao.org/fill-range/download/fill-range-4.0.0.tgz#d544811d428f98eb06a63dc402d2403c328c38f7"
@@ -4772,6 +4777,11 @@ svg2ttf@^4.3.0:
     microbuffer "^1.0.0"
     svgpath "^2.1.5"
     xmldom "~0.1.22"
+
+svg@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/svg/-/svg-0.1.0.tgz#e934fcb55b796b818aa889aafee3ece3a09e6f90"
+  integrity sha1-6TT8tVt5a4GKqImq/uPs46Ceb5A=
 
 svg_pathify@^0.0.8:
   version "0.0.8"
