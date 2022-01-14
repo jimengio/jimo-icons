@@ -201,4 +201,8 @@ module.exports = [
   "piecework-report"
   "value-added-outline"
   "permission-key"
+  "application-market-management"
+  "workbench"
+  "other"
+  "enterprise-management"
 ]

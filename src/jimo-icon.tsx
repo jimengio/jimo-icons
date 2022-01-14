@@ -241,5 +241,9 @@ export enum EJimoIcon {
   pieceworkReport = "piecework-report",
   valueAddedOutline = "value-added-outline",
   permissionKey = "permission-key",
+  applicationMarketManagement = "application-market-management",
+  workbench = "workbench",
+  other = "other",
+  enterpriseManagement = "enterprise-management",
   // icons list
 }
