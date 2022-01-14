@@ -6,7 +6,7 @@
   "types": "./lib/jimo-icon.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "optimize": "cd svg/ && ../node_modules/.bin/svgo --config=../svgo.json *",
+    "optimize": "npx svgo -f ./svg --config=./svgo.json",
     "gen": "coffee scripts/convert.coffee",
     "compile": "rm -rfv lib && tsc -d --project tsconfig-compile.json --outDir lib/ && cp -r src/fonts lib/",
     "watch": "webpack-dev-server",
@@ -43,7 +43,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "style-loader": "^1.2.1",
-    "svgo": "^1.3.2",
+    "svgo": "^2.8.0",
     "typescript": "^3.9.7",
     "url-loader": "^4.1.0",
     "webpack": "^4.44.1",
