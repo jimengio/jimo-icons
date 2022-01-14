@@ -1,6 +1,7 @@
 {
   "plugins": [
     {
+      "name": "preset-default",
       "convertPathData": {
         "noSpaceAfterFlags": false
       }
