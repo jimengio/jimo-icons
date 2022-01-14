@@ -201,5 +201,9 @@ export default {
   "setting-filled": 57543,
   "piecework-report": 57544,
   "value-added-outline": 57545,
-  "permission-key": 57546
+  "permission-key": 57546,
+  "application-market-management": 57547,
+  "workbench": 57548,
+  "other": 57549,
+  "enterprise-management": 57550
 }
