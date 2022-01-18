@@ -245,5 +245,18 @@ export enum EJimoIcon {
   workbench = "workbench",
   other = "other",
   enterpriseManagement = "enterprise-management",
+  applicationManagement = "application-management",
+  authorityManagement = "authority-management",
+  cooperativePartner = "cooperative-partner",
+  equipmentLife = "equipment-life",
+  faultDiagnosis = "fault-diagnosis",
+  helpDocument = "help-document",
+  InterfaceDocument = "Interface-document",
+  keyManagement = "key-management",
+  modelTraining = "model-training",
+  organizationalManagement = "organizational-management",
+  processOptimization = "process-optimization",
+  productionDispatching = "production-dispatching",
+  userManagement = "user-management",
   // icons list
 }

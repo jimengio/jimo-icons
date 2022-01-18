@@ -205,5 +205,18 @@ export default {
   "application-market-management": 57547,
   "workbench": 57548,
   "other": 57549,
-  "enterprise-management": 57550
+  "enterprise-management": 57550,
+  "application-management": 57551,
+  "authority-management": 57552,
+  "cooperative-partner": 57553,
+  "equipment-life": 57554,
+  "fault-diagnosis": 57555,
+  "help-document": 57556,
+  "Interface-document": 57557,
+  "key-management": 57558,
+  "model-training": 57559,
+  "organizational-management": 57560,
+  "process-optimization": 57561,
+  "production-dispatching": 57562,
+  "user-management": 57563
 }
