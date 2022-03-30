@@ -258,5 +258,9 @@ export enum EJimoIcon {
   processOptimization = "process-optimization",
   productionDispatching = "production-dispatching",
   userManagement = "user-management",
+  apartmentOutlined = "apartment-outlined",
+  customerServiceOutlined = "customer-service-outlined",
+  openPowerOutlined = "open-power-outlined",
+  questionCircleOutlined = "question-circle-outlined",
   // icons list
 }
