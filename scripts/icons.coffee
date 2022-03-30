@@ -218,4 +218,8 @@ module.exports = [
   "process-optimization"
   "production-dispatching"
   "user-management"
+  "apartment-outlined"
+  "customer-service-outlined"
+  "open-power-outlined"
+  "question-circle-outlined"
 ]

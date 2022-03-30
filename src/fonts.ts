@@ -218,5 +218,9 @@ export default {
   "organizational-management": 57560,
   "process-optimization": 57561,
   "production-dispatching": 57562,
-  "user-management": 57563
+  "user-management": 57563,
+  "apartment-outlined": 57564,
+  "customer-service-outlined": 57565,
+  "open-power-outlined": 57566,
+  "question-circle-outlined": 57567
 }
