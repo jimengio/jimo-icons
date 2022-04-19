@@ -222,4 +222,5 @@ module.exports = [
   "customer-service-outlined"
   "open-power-outlined"
   "question-circle-outlined"
+  "basic-material-outlined"
 ]
