@@ -262,5 +262,6 @@ export enum EJimoIcon {
   customerServiceOutlined = "customer-service-outlined",
   openPowerOutlined = "open-power-outlined",
   questionCircleOutlined = "question-circle-outlined",
+  basicMaterialOutlined = "basic-material-outlined",
   // icons list
 }

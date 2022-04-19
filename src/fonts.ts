@@ -222,5 +222,6 @@ export default {
   "apartment-outlined": 57564,
   "customer-service-outlined": 57565,
   "open-power-outlined": 57566,
-  "question-circle-outlined": 57567
+  "question-circle-outlined": 57567,
+  "basic-material-outlined": 57568
 }
